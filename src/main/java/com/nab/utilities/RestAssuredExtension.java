@@ -41,11 +41,7 @@ public class RestAssuredExtension {
 
     }
 
-    public static void SetTokenForRequest(String token) {
-        Request.header(new Header("Authorization", "Bearer " + token));
 
-
-    }
 
     public static ResponseOptions<Response> PostRequestWithToken(String url, JSONObject object, String token) {
         Request.header(new Header("Authorization", "Bearer " + token));

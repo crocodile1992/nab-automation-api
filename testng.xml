@@ -4,7 +4,7 @@
 <suite name="Default Suite">
     <test name="demoautotest">
         <classes>
-            <class name="com.nab.defs.TestRunner"/>
+            <class name="TestRunner"/>
         </classes>
     </test>
     <!--  demoautotest  -->

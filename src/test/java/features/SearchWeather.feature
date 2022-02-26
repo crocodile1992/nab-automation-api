@@ -47,14 +47,17 @@ Feature: Test API search weather in your city
       | 18  | 200           | 200 |
       | 19  | 200           | 200 |
       | 20  | 200           | 200 |
-      | 21  | 200           | 200 |
+      | 21  | 404           | 404 |
       | 22  | 200           | 200 |
       | 23  | 200           | 200 |
       | 24  | 200           | 200 |
+    @NAB_REQ_2.1
     Examples:
       | KEY |
       | 2   |
+    @NAB_REQ_2.1
     Examples:
+
       | KEY |
       | 3   |
     Examples:
@@ -132,6 +135,7 @@ Feature: Test API search weather in your city
       | 8   | Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit | cc0fffc8405efdadca37749bbc586e41 |
       | 10  | hanoi                                                                                                                                                                            | appid not exists                 |
       | 11  | hanoi                                                                                                                                                                            | 57c1c22050f92b6d7a0a4c5716912bbe |
+      | 21  | Hà Nam,                                                                                                                                                                          | cc0fffc8405efdadca37749bbc586e41 |
 
     Then user check message in response body when response fail with information corresponding "<KEY>"
       | KEY | response_code | cod | message                                                                           |
@@ -144,6 +148,7 @@ Feature: Test API search weather in your city
       | 8   | 404           | 404 | city not found                                                                    |
       | 10  | 401           | 401 | Invalid API key. Please see http://openweathermap.org/faq#error401 for more info. |
       | 11  | 401           | 401 | Invalid API key. Please see http://openweathermap.org/faq#error401 for more info. |
+      | 21  | 404           | 404 | city not found                                                                    |
     Examples:
       | KEY |
       | 2   |
@@ -171,6 +176,9 @@ Feature: Test API search weather in your city
     Examples:
       | KEY |
       | 11  |
+    Examples:
+      | KEY |
+      | 21  |
 
   @NAB_REQ_2.3
   Scenario Outline: Verify Content in Body when Response is 200
@@ -185,7 +193,6 @@ Feature: Test API search weather in your city
       | 18  | 東京都                   | cc0fffc8405efdadca37749bbc586e41 |
       | 19  | Nagoya                | cc0fffc8405efdadca37749bbc586e41 |
       | 20  | Hà Nội, VN            | cc0fffc8405efdadca37749bbc586e41 |
-      | 21  | Hà Nam,               | cc0fffc8405efdadca37749bbc586e41 |
       | 22  | Bắc Giang, VN         | cc0fffc8405efdadca37749bbc586e41 |
       | 23  | Cần     Thơ           | cc0fffc8405efdadca37749bbc586e41 |
       | 24  | Vĩnh Long, VN         | cc0fffc8405efdadca37749bbc586e41 |
@@ -201,7 +208,7 @@ Feature: Test API search weather in your city
       | 18  | 200           | 200 |         | Tokyo              | JP               |
       | 19  | 200           | 200 |         | Nagoya             | JP               |
       | 20  | 200           | 200 |         | Hanoi              | VN               |
-      | 21  | 200           | 200 |         | Hà Nam             | VN               |
+
       | 22  | 200           | 200 |         | Bắc Giang          | VN               |
       | 23  | 200           | 200 |         | Can Tho            | VN               |
       | 24  | 200           | 200 |         | Vĩnh Long          | VN               |
@@ -232,9 +239,6 @@ Feature: Test API search weather in your city
     Examples:
       | KEY |
       | 20  |
-    Examples:
-      | KEY |
-      | 21  |
     Examples:
       | KEY |
       | 22  |

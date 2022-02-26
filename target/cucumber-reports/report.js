@@ -368,8 +368,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -401,7 +401,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 54,
+  "line": 55,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -410,21 +410,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 55,
+      "line": 56,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "2"
       ],
-      "line": 56,
+      "line": 57,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 56,
+  "line": 57,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -789,8 +789,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -821,16 +821,34 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 2345594400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 500959300,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 57,
+  "line": 59,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -839,21 +857,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 58,
+      "line": 61,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "3"
       ],
-      "line": 59,
+      "line": 62,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 59,
+  "line": 62,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -1218,8 +1236,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -1250,16 +1268,34 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "3",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 110489900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "3",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 14888600,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 60,
+  "line": 63,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -1268,21 +1304,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 61,
+      "line": 64,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "4"
       ],
-      "line": 62,
+      "line": 65,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 62,
+  "line": 65,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -1647,8 +1683,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -1679,16 +1715,34 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "4",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 112059000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "4",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 12432100,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 63,
+  "line": 66,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -1697,21 +1751,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 64,
+      "line": 67,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "5"
       ],
-      "line": 65,
+      "line": 68,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 65,
+  "line": 68,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -2076,8 +2130,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -2108,16 +2162,34 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "5",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 120120000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "5",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 12965700,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 66,
+  "line": 69,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -2126,21 +2198,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 67,
+      "line": 70,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "6"
       ],
-      "line": 68,
+      "line": 71,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 68,
+  "line": 71,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -2505,8 +2577,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -2537,16 +2609,34 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "6",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 100166300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "6",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 12759200,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 69,
+  "line": 72,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -2555,21 +2645,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 70,
+      "line": 73,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "7"
       ],
-      "line": 71,
+      "line": 74,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 71,
+  "line": 74,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -2934,8 +3024,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -2966,16 +3056,34 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "7",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 117215100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "7",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 23104000,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 72,
+  "line": 75,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -2984,21 +3092,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 73,
+      "line": 76,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "8"
       ],
-      "line": 74,
+      "line": 77,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 74,
+  "line": 77,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -3363,8 +3471,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -3395,16 +3503,34 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "8",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 103015700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "8",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 207600,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 75,
+  "line": 78,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -3413,21 +3539,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 76,
+      "line": 79,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "10"
       ],
-      "line": 77,
+      "line": 80,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 77,
+  "line": 80,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -3792,8 +3918,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -3824,16 +3950,34 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "10",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 119232000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "10",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 19737000,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 78,
+  "line": 81,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -3842,21 +3986,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 79,
+      "line": 82,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "11"
       ],
-      "line": 80,
+      "line": 83,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 80,
+  "line": 83,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -4221,8 +4365,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -4253,16 +4397,34 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "11",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 102021000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "11",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 23479300,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 81,
+  "line": 84,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -4271,21 +4433,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 82,
+      "line": 85,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "12"
       ],
-      "line": 83,
+      "line": 86,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 83,
+  "line": 86,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -4650,8 +4812,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -4682,16 +4844,34 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "12",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 103218200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "12",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 39926200,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 84,
+  "line": 87,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -4700,21 +4880,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 85,
+      "line": 88,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "13"
       ],
-      "line": 86,
+      "line": 89,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 86,
+  "line": 89,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -5079,8 +5259,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -5111,16 +5291,34 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "13",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 98832400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "13",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 18053000,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 87,
+  "line": 90,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -5129,21 +5327,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 88,
+      "line": 91,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "14"
       ],
-      "line": 89,
+      "line": 92,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 89,
+  "line": 92,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -5508,8 +5706,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -5540,16 +5738,34 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "14",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 102697200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "14",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 14199500,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 90,
+  "line": 93,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -5558,21 +5774,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 91,
+      "line": 94,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "15"
       ],
-      "line": 92,
+      "line": 95,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 92,
+  "line": 95,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -5937,8 +6153,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -5969,16 +6185,34 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "15",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 114670800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "15",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 32679000,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 93,
+  "line": 96,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -5987,21 +6221,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 94,
+      "line": 97,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "16"
       ],
-      "line": 95,
+      "line": 98,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 95,
+  "line": 98,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -6366,8 +6600,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -6398,16 +6632,34 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "16",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 100450200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "16",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 13748200,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 96,
+  "line": 99,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -6416,21 +6668,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 97,
+      "line": 100,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "17"
       ],
-      "line": 98,
+      "line": 101,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 98,
+  "line": 101,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -6795,8 +7047,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -6827,16 +7079,34 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "17",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 99334000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "17",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 17604500,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 99,
+  "line": 102,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -6845,21 +7115,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 100,
+      "line": 103,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "18"
       ],
-      "line": 101,
+      "line": 104,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 101,
+  "line": 104,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -7224,8 +7494,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -7256,16 +7526,34 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "18",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 138637700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "18",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 13769900,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 102,
+  "line": 105,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -7274,21 +7562,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 103,
+      "line": 106,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "19"
       ],
-      "line": 104,
+      "line": 107,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 104,
+  "line": 107,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -7653,8 +7941,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -7685,16 +7973,34 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "19",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 136018800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "19",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 21929300,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 105,
+  "line": 108,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -7703,21 +8009,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 106,
+      "line": 109,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "20"
       ],
-      "line": 107,
+      "line": 110,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 107,
+  "line": 110,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -8082,8 +8388,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -8114,16 +8420,34 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "20",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 110673600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "20",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 14459600,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 108,
+  "line": 111,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -8132,21 +8456,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 109,
+      "line": 112,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "21"
       ],
-      "line": 110,
+      "line": 113,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 110,
+  "line": 113,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -8511,8 +8835,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -8543,16 +8867,34 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "21",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 617442200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "21",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 8170800,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 111,
+  "line": 114,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -8561,21 +8903,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 112,
+      "line": 115,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "22"
       ],
-      "line": 113,
+      "line": 116,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 113,
+  "line": 116,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -8940,8 +9282,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -8972,16 +9314,34 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "22",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 130359500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "22",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 31830800,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 114,
+  "line": 117,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -8990,21 +9350,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 115,
+      "line": 118,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "23"
       ],
-      "line": 116,
+      "line": 119,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 116,
+  "line": 119,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -9369,8 +9729,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -9401,16 +9761,35 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "23",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 483548900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "23",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 2004700,
+  "error_message": "java.lang.AssertionError: Status Code is Valid\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:26)\r\n\tat com.nab.defs.SearchWeatherDefs.validateResponseCodeAndResponseBody(SearchWeatherDefs.java:44)\r\n\tat steps.SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(SearchWeatherSteps.java:27)\r\n\tat ✽.Then user check response code, response body with information corresponding \"23\"(SearchWeather.feature:31)\r\n",
+  "status": "failed"
 });
 formatter.examples({
-  "line": 117,
+  "line": 120,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;",
@@ -9419,21 +9798,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 118,
+      "line": 121,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;1"
     },
     {
       "cells": [
         "24"
       ],
-      "line": 119,
+      "line": 122,
       "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 119,
+  "line": 122,
   "name": "Verify Response Code call api with 2 params q and appid",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-response-code-call-api-with-2-params-q-and-appid;;2",
@@ -9798,8 +10177,8 @@ formatter.step({
     {
       "cells": [
         "21",
-        "200",
-        "200"
+        "404",
+        "404"
       ],
       "line": 50
     },
@@ -9830,16 +10209,34 @@ formatter.step({
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "24",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 112029900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "24",
+      "offset": 72
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 12279500,
+  "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 123,
+  "line": 126,
   "name": "Verify Message Error when response is error",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error",
@@ -9847,13 +10244,13 @@ formatter.scenarioOutline({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 122,
+      "line": 125,
       "name": "@NAB_REQ_2.2"
     }
   ]
 });
 formatter.step({
-  "line": 124,
+  "line": 127,
   "name": "user sends API SearchWeather request with information corresponding \"\u003cKEY\u003e\"",
   "rows": [
     {
@@ -9862,7 +10259,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 125
+      "line": 128
     },
     {
       "cells": [
@@ -9870,7 +10267,7 @@ formatter.step({
         "city name not exists",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 126
+      "line": 129
     },
     {
       "cells": [
@@ -9878,7 +10275,7 @@ formatter.step({
         "",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 127
+      "line": 130
     },
     {
       "cells": [
@@ -9886,7 +10283,7 @@ formatter.step({
         "",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 128
+      "line": 131
     },
     {
       "cells": [
@@ -9894,7 +10291,7 @@ formatter.step({
         "BG",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 129
+      "line": 132
     },
     {
       "cells": [
@@ -9902,7 +10299,7 @@ formatter.step({
         "ha noi vn",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 130
+      "line": 133
     },
     {
       "cells": [
@@ -9910,7 +10307,7 @@ formatter.step({
         "ha noi, cn",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 131
+      "line": 134
     },
     {
       "cells": [
@@ -9918,7 +10315,7 @@ formatter.step({
         "Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 132
+      "line": 135
     },
     {
       "cells": [
@@ -9926,7 +10323,7 @@ formatter.step({
         "hanoi",
         "appid not exists"
       ],
-      "line": 133
+      "line": 136
     },
     {
       "cells": [
@@ -9934,13 +10331,21 @@ formatter.step({
         "hanoi",
         "57c1c22050f92b6d7a0a4c5716912bbe"
       ],
-      "line": 134
+      "line": 137
+    },
+    {
+      "cells": [
+        "21",
+        "Hà Nam,",
+        "cc0fffc8405efdadca37749bbc586e41"
+      ],
+      "line": 138
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 136,
+  "line": 140,
   "name": "user check message in response body when response fail with information corresponding \"\u003cKEY\u003e\"",
   "rows": [
     {
@@ -9950,7 +10355,7 @@ formatter.step({
         "cod",
         "message"
       ],
-      "line": 137
+      "line": 141
     },
     {
       "cells": [
@@ -9959,7 +10364,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 138
+      "line": 142
     },
     {
       "cells": [
@@ -9968,7 +10373,7 @@ formatter.step({
         "400",
         "Nothing to geocode"
       ],
-      "line": 139
+      "line": 143
     },
     {
       "cells": [
@@ -9977,7 +10382,7 @@ formatter.step({
         "400",
         "Nothing to geocode"
       ],
-      "line": 140
+      "line": 144
     },
     {
       "cells": [
@@ -9986,7 +10391,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 141
+      "line": 145
     },
     {
       "cells": [
@@ -9995,7 +10400,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 142
+      "line": 146
     },
     {
       "cells": [
@@ -10004,7 +10409,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 143
+      "line": 147
     },
     {
       "cells": [
@@ -10013,7 +10418,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 144
+      "line": 148
     },
     {
       "cells": [
@@ -10022,7 +10427,7 @@ formatter.step({
         "401",
         "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
       ],
-      "line": 145
+      "line": 149
     },
     {
       "cells": [
@@ -10031,13 +10436,22 @@ formatter.step({
         "401",
         "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
       ],
-      "line": 146
+      "line": 150
+    },
+    {
+      "cells": [
+        "21",
+        "404",
+        "404",
+        "city not found"
+      ],
+      "line": 151
     }
   ],
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 147,
+  "line": 152,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;",
@@ -10046,21 +10460,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 148,
+      "line": 153,
       "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;1"
     },
     {
       "cells": [
         "2"
       ],
-      "line": 149,
+      "line": 154,
       "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 149,
+  "line": 154,
   "name": "Verify Message Error when response is error",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;2",
@@ -10068,7 +10482,7 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 122,
+      "line": 125,
       "name": "@NAB_REQ_2.2"
     },
     {
@@ -10078,7 +10492,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "line": 124,
+  "line": 127,
   "name": "user sends API SearchWeather request with information corresponding \"2\"",
   "matchedColumns": [
     0
@@ -10090,7 +10504,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 125
+      "line": 128
     },
     {
       "cells": [
@@ -10098,7 +10512,7 @@ formatter.step({
         "city name not exists",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 126
+      "line": 129
     },
     {
       "cells": [
@@ -10106,7 +10520,7 @@ formatter.step({
         "",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 127
+      "line": 130
     },
     {
       "cells": [
@@ -10114,7 +10528,7 @@ formatter.step({
         "",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 128
+      "line": 131
     },
     {
       "cells": [
@@ -10122,7 +10536,7 @@ formatter.step({
         "BG",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 129
+      "line": 132
     },
     {
       "cells": [
@@ -10130,7 +10544,7 @@ formatter.step({
         "ha noi vn",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 130
+      "line": 133
     },
     {
       "cells": [
@@ -10138,7 +10552,7 @@ formatter.step({
         "ha noi, cn",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 131
+      "line": 134
     },
     {
       "cells": [
@@ -10146,7 +10560,7 @@ formatter.step({
         "Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 132
+      "line": 135
     },
     {
       "cells": [
@@ -10154,7 +10568,7 @@ formatter.step({
         "hanoi",
         "appid not exists"
       ],
-      "line": 133
+      "line": 136
     },
     {
       "cells": [
@@ -10162,13 +10576,21 @@ formatter.step({
         "hanoi",
         "57c1c22050f92b6d7a0a4c5716912bbe"
       ],
-      "line": 134
+      "line": 137
+    },
+    {
+      "cells": [
+        "21",
+        "Hà Nam,",
+        "cc0fffc8405efdadca37749bbc586e41"
+      ],
+      "line": 138
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 136,
+  "line": 140,
   "name": "user check message in response body when response fail with information corresponding \"2\"",
   "matchedColumns": [
     0
@@ -10181,7 +10603,7 @@ formatter.step({
         "cod",
         "message"
       ],
-      "line": 137
+      "line": 141
     },
     {
       "cells": [
@@ -10190,7 +10612,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 138
+      "line": 142
     },
     {
       "cells": [
@@ -10199,7 +10621,7 @@ formatter.step({
         "400",
         "Nothing to geocode"
       ],
-      "line": 139
+      "line": 143
     },
     {
       "cells": [
@@ -10208,7 +10630,7 @@ formatter.step({
         "400",
         "Nothing to geocode"
       ],
-      "line": 140
+      "line": 144
     },
     {
       "cells": [
@@ -10217,7 +10639,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 141
+      "line": 145
     },
     {
       "cells": [
@@ -10226,7 +10648,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 142
+      "line": 146
     },
     {
       "cells": [
@@ -10235,7 +10657,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 143
+      "line": 147
     },
     {
       "cells": [
@@ -10244,7 +10666,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 144
+      "line": 148
     },
     {
       "cells": [
@@ -10253,7 +10675,7 @@ formatter.step({
         "401",
         "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
       ],
-      "line": 145
+      "line": 149
     },
     {
       "cells": [
@@ -10262,21 +10684,48 @@ formatter.step({
         "401",
         "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
       ],
-      "line": 146
+      "line": 150
+    },
+    {
+      "cells": [
+        "21",
+        "404",
+        "404",
+        "city not found"
+      ],
+      "line": 151
     }
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 92553500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "2",
+      "offset": 87
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckMessageInResponseBodyWhenResponseFailWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 23149100,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 150,
+  "line": 155,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;",
@@ -10285,21 +10734,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 151,
+      "line": 156,
       "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;1"
     },
     {
       "cells": [
         "3"
       ],
-      "line": 152,
+      "line": 157,
       "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 152,
+  "line": 157,
   "name": "Verify Message Error when response is error",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;2",
@@ -10307,7 +10756,7 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 122,
+      "line": 125,
       "name": "@NAB_REQ_2.2"
     },
     {
@@ -10317,7 +10766,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "line": 124,
+  "line": 127,
   "name": "user sends API SearchWeather request with information corresponding \"3\"",
   "matchedColumns": [
     0
@@ -10329,7 +10778,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 125
+      "line": 128
     },
     {
       "cells": [
@@ -10337,7 +10786,7 @@ formatter.step({
         "city name not exists",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 126
+      "line": 129
     },
     {
       "cells": [
@@ -10345,7 +10794,7 @@ formatter.step({
         "",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 127
+      "line": 130
     },
     {
       "cells": [
@@ -10353,7 +10802,7 @@ formatter.step({
         "",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 128
+      "line": 131
     },
     {
       "cells": [
@@ -10361,7 +10810,7 @@ formatter.step({
         "BG",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 129
+      "line": 132
     },
     {
       "cells": [
@@ -10369,7 +10818,7 @@ formatter.step({
         "ha noi vn",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 130
+      "line": 133
     },
     {
       "cells": [
@@ -10377,7 +10826,7 @@ formatter.step({
         "ha noi, cn",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 131
+      "line": 134
     },
     {
       "cells": [
@@ -10385,7 +10834,7 @@ formatter.step({
         "Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 132
+      "line": 135
     },
     {
       "cells": [
@@ -10393,7 +10842,7 @@ formatter.step({
         "hanoi",
         "appid not exists"
       ],
-      "line": 133
+      "line": 136
     },
     {
       "cells": [
@@ -10401,13 +10850,21 @@ formatter.step({
         "hanoi",
         "57c1c22050f92b6d7a0a4c5716912bbe"
       ],
-      "line": 134
+      "line": 137
+    },
+    {
+      "cells": [
+        "21",
+        "Hà Nam,",
+        "cc0fffc8405efdadca37749bbc586e41"
+      ],
+      "line": 138
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 136,
+  "line": 140,
   "name": "user check message in response body when response fail with information corresponding \"3\"",
   "matchedColumns": [
     0
@@ -10420,7 +10877,7 @@ formatter.step({
         "cod",
         "message"
       ],
-      "line": 137
+      "line": 141
     },
     {
       "cells": [
@@ -10429,7 +10886,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 138
+      "line": 142
     },
     {
       "cells": [
@@ -10438,7 +10895,7 @@ formatter.step({
         "400",
         "Nothing to geocode"
       ],
-      "line": 139
+      "line": 143
     },
     {
       "cells": [
@@ -10447,7 +10904,7 @@ formatter.step({
         "400",
         "Nothing to geocode"
       ],
-      "line": 140
+      "line": 144
     },
     {
       "cells": [
@@ -10456,7 +10913,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 141
+      "line": 145
     },
     {
       "cells": [
@@ -10465,7 +10922,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 142
+      "line": 146
     },
     {
       "cells": [
@@ -10474,7 +10931,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 143
+      "line": 147
     },
     {
       "cells": [
@@ -10483,7 +10940,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 144
+      "line": 148
     },
     {
       "cells": [
@@ -10492,7 +10949,7 @@ formatter.step({
         "401",
         "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
       ],
-      "line": 145
+      "line": 149
     },
     {
       "cells": [
@@ -10501,21 +10958,48 @@ formatter.step({
         "401",
         "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
       ],
-      "line": 146
+      "line": 150
+    },
+    {
+      "cells": [
+        "21",
+        "404",
+        "404",
+        "city not found"
+      ],
+      "line": 151
     }
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "3",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 109074800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "3",
+      "offset": 87
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckMessageInResponseBodyWhenResponseFailWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 15786600,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 153,
+  "line": 158,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;",
@@ -10524,21 +11008,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 154,
+      "line": 159,
       "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;1"
     },
     {
       "cells": [
         "4"
       ],
-      "line": 155,
+      "line": 160,
       "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 155,
+  "line": 160,
   "name": "Verify Message Error when response is error",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;2",
@@ -10546,7 +11030,7 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 122,
+      "line": 125,
       "name": "@NAB_REQ_2.2"
     },
     {
@@ -10556,7 +11040,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "line": 124,
+  "line": 127,
   "name": "user sends API SearchWeather request with information corresponding \"4\"",
   "matchedColumns": [
     0
@@ -10568,7 +11052,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 125
+      "line": 128
     },
     {
       "cells": [
@@ -10576,7 +11060,7 @@ formatter.step({
         "city name not exists",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 126
+      "line": 129
     },
     {
       "cells": [
@@ -10584,7 +11068,7 @@ formatter.step({
         "",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 127
+      "line": 130
     },
     {
       "cells": [
@@ -10592,7 +11076,7 @@ formatter.step({
         "",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 128
+      "line": 131
     },
     {
       "cells": [
@@ -10600,7 +11084,7 @@ formatter.step({
         "BG",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 129
+      "line": 132
     },
     {
       "cells": [
@@ -10608,7 +11092,7 @@ formatter.step({
         "ha noi vn",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 130
+      "line": 133
     },
     {
       "cells": [
@@ -10616,7 +11100,7 @@ formatter.step({
         "ha noi, cn",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 131
+      "line": 134
     },
     {
       "cells": [
@@ -10624,7 +11108,7 @@ formatter.step({
         "Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 132
+      "line": 135
     },
     {
       "cells": [
@@ -10632,7 +11116,7 @@ formatter.step({
         "hanoi",
         "appid not exists"
       ],
-      "line": 133
+      "line": 136
     },
     {
       "cells": [
@@ -10640,13 +11124,21 @@ formatter.step({
         "hanoi",
         "57c1c22050f92b6d7a0a4c5716912bbe"
       ],
-      "line": 134
+      "line": 137
+    },
+    {
+      "cells": [
+        "21",
+        "Hà Nam,",
+        "cc0fffc8405efdadca37749bbc586e41"
+      ],
+      "line": 138
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 136,
+  "line": 140,
   "name": "user check message in response body when response fail with information corresponding \"4\"",
   "matchedColumns": [
     0
@@ -10659,7 +11151,7 @@ formatter.step({
         "cod",
         "message"
       ],
-      "line": 137
+      "line": 141
     },
     {
       "cells": [
@@ -10668,7 +11160,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 138
+      "line": 142
     },
     {
       "cells": [
@@ -10677,7 +11169,7 @@ formatter.step({
         "400",
         "Nothing to geocode"
       ],
-      "line": 139
+      "line": 143
     },
     {
       "cells": [
@@ -10686,7 +11178,7 @@ formatter.step({
         "400",
         "Nothing to geocode"
       ],
-      "line": 140
+      "line": 144
     },
     {
       "cells": [
@@ -10695,7 +11187,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 141
+      "line": 145
     },
     {
       "cells": [
@@ -10704,7 +11196,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 142
+      "line": 146
     },
     {
       "cells": [
@@ -10713,7 +11205,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 143
+      "line": 147
     },
     {
       "cells": [
@@ -10722,7 +11214,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 144
+      "line": 148
     },
     {
       "cells": [
@@ -10731,7 +11223,7 @@ formatter.step({
         "401",
         "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
       ],
-      "line": 145
+      "line": 149
     },
     {
       "cells": [
@@ -10740,21 +11232,48 @@ formatter.step({
         "401",
         "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
       ],
-      "line": 146
+      "line": 150
+    },
+    {
+      "cells": [
+        "21",
+        "404",
+        "404",
+        "city not found"
+      ],
+      "line": 151
     }
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "4",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 263095800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "4",
+      "offset": 87
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckMessageInResponseBodyWhenResponseFailWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 25204000,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 156,
+  "line": 161,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;",
@@ -10763,21 +11282,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 157,
+      "line": 162,
       "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;1"
     },
     {
       "cells": [
         "5"
       ],
-      "line": 158,
+      "line": 163,
       "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 158,
+  "line": 163,
   "name": "Verify Message Error when response is error",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;2",
@@ -10785,7 +11304,7 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 122,
+      "line": 125,
       "name": "@NAB_REQ_2.2"
     },
     {
@@ -10795,7 +11314,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "line": 124,
+  "line": 127,
   "name": "user sends API SearchWeather request with information corresponding \"5\"",
   "matchedColumns": [
     0
@@ -10807,7 +11326,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 125
+      "line": 128
     },
     {
       "cells": [
@@ -10815,7 +11334,7 @@ formatter.step({
         "city name not exists",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 126
+      "line": 129
     },
     {
       "cells": [
@@ -10823,7 +11342,7 @@ formatter.step({
         "",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 127
+      "line": 130
     },
     {
       "cells": [
@@ -10831,7 +11350,7 @@ formatter.step({
         "",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 128
+      "line": 131
     },
     {
       "cells": [
@@ -10839,7 +11358,7 @@ formatter.step({
         "BG",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 129
+      "line": 132
     },
     {
       "cells": [
@@ -10847,7 +11366,7 @@ formatter.step({
         "ha noi vn",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 130
+      "line": 133
     },
     {
       "cells": [
@@ -10855,7 +11374,7 @@ formatter.step({
         "ha noi, cn",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 131
+      "line": 134
     },
     {
       "cells": [
@@ -10863,7 +11382,7 @@ formatter.step({
         "Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 132
+      "line": 135
     },
     {
       "cells": [
@@ -10871,7 +11390,7 @@ formatter.step({
         "hanoi",
         "appid not exists"
       ],
-      "line": 133
+      "line": 136
     },
     {
       "cells": [
@@ -10879,13 +11398,21 @@ formatter.step({
         "hanoi",
         "57c1c22050f92b6d7a0a4c5716912bbe"
       ],
-      "line": 134
+      "line": 137
+    },
+    {
+      "cells": [
+        "21",
+        "Hà Nam,",
+        "cc0fffc8405efdadca37749bbc586e41"
+      ],
+      "line": 138
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 136,
+  "line": 140,
   "name": "user check message in response body when response fail with information corresponding \"5\"",
   "matchedColumns": [
     0
@@ -10898,7 +11425,7 @@ formatter.step({
         "cod",
         "message"
       ],
-      "line": 137
+      "line": 141
     },
     {
       "cells": [
@@ -10907,7 +11434,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 138
+      "line": 142
     },
     {
       "cells": [
@@ -10916,7 +11443,7 @@ formatter.step({
         "400",
         "Nothing to geocode"
       ],
-      "line": 139
+      "line": 143
     },
     {
       "cells": [
@@ -10925,7 +11452,7 @@ formatter.step({
         "400",
         "Nothing to geocode"
       ],
-      "line": 140
+      "line": 144
     },
     {
       "cells": [
@@ -10934,7 +11461,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 141
+      "line": 145
     },
     {
       "cells": [
@@ -10943,7 +11470,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 142
+      "line": 146
     },
     {
       "cells": [
@@ -10952,7 +11479,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 143
+      "line": 147
     },
     {
       "cells": [
@@ -10961,7 +11488,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 144
+      "line": 148
     },
     {
       "cells": [
@@ -10970,7 +11497,7 @@ formatter.step({
         "401",
         "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
       ],
-      "line": 145
+      "line": 149
     },
     {
       "cells": [
@@ -10979,21 +11506,48 @@ formatter.step({
         "401",
         "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
       ],
-      "line": 146
+      "line": 150
+    },
+    {
+      "cells": [
+        "21",
+        "404",
+        "404",
+        "city not found"
+      ],
+      "line": 151
     }
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "5",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 116257400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "5",
+      "offset": 87
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckMessageInResponseBodyWhenResponseFailWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 21851400,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 159,
+  "line": 164,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;",
@@ -11002,21 +11556,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 160,
+      "line": 165,
       "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;1"
     },
     {
       "cells": [
         "6"
       ],
-      "line": 161,
+      "line": 166,
       "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 161,
+  "line": 166,
   "name": "Verify Message Error when response is error",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;2",
@@ -11024,7 +11578,7 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 122,
+      "line": 125,
       "name": "@NAB_REQ_2.2"
     },
     {
@@ -11034,7 +11588,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "line": 124,
+  "line": 127,
   "name": "user sends API SearchWeather request with information corresponding \"6\"",
   "matchedColumns": [
     0
@@ -11046,7 +11600,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 125
+      "line": 128
     },
     {
       "cells": [
@@ -11054,7 +11608,7 @@ formatter.step({
         "city name not exists",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 126
+      "line": 129
     },
     {
       "cells": [
@@ -11062,7 +11616,7 @@ formatter.step({
         "",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 127
+      "line": 130
     },
     {
       "cells": [
@@ -11070,7 +11624,7 @@ formatter.step({
         "",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 128
+      "line": 131
     },
     {
       "cells": [
@@ -11078,7 +11632,7 @@ formatter.step({
         "BG",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 129
+      "line": 132
     },
     {
       "cells": [
@@ -11086,7 +11640,7 @@ formatter.step({
         "ha noi vn",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 130
+      "line": 133
     },
     {
       "cells": [
@@ -11094,7 +11648,7 @@ formatter.step({
         "ha noi, cn",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 131
+      "line": 134
     },
     {
       "cells": [
@@ -11102,7 +11656,7 @@ formatter.step({
         "Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 132
+      "line": 135
     },
     {
       "cells": [
@@ -11110,7 +11664,7 @@ formatter.step({
         "hanoi",
         "appid not exists"
       ],
-      "line": 133
+      "line": 136
     },
     {
       "cells": [
@@ -11118,13 +11672,21 @@ formatter.step({
         "hanoi",
         "57c1c22050f92b6d7a0a4c5716912bbe"
       ],
-      "line": 134
+      "line": 137
+    },
+    {
+      "cells": [
+        "21",
+        "Hà Nam,",
+        "cc0fffc8405efdadca37749bbc586e41"
+      ],
+      "line": 138
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 136,
+  "line": 140,
   "name": "user check message in response body when response fail with information corresponding \"6\"",
   "matchedColumns": [
     0
@@ -11137,7 +11699,7 @@ formatter.step({
         "cod",
         "message"
       ],
-      "line": 137
+      "line": 141
     },
     {
       "cells": [
@@ -11146,7 +11708,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 138
+      "line": 142
     },
     {
       "cells": [
@@ -11155,7 +11717,7 @@ formatter.step({
         "400",
         "Nothing to geocode"
       ],
-      "line": 139
+      "line": 143
     },
     {
       "cells": [
@@ -11164,7 +11726,7 @@ formatter.step({
         "400",
         "Nothing to geocode"
       ],
-      "line": 140
+      "line": 144
     },
     {
       "cells": [
@@ -11173,7 +11735,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 141
+      "line": 145
     },
     {
       "cells": [
@@ -11182,7 +11744,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 142
+      "line": 146
     },
     {
       "cells": [
@@ -11191,7 +11753,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 143
+      "line": 147
     },
     {
       "cells": [
@@ -11200,7 +11762,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 144
+      "line": 148
     },
     {
       "cells": [
@@ -11209,7 +11771,7 @@ formatter.step({
         "401",
         "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
       ],
-      "line": 145
+      "line": 149
     },
     {
       "cells": [
@@ -11218,21 +11780,48 @@ formatter.step({
         "401",
         "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
       ],
-      "line": 146
+      "line": 150
+    },
+    {
+      "cells": [
+        "21",
+        "404",
+        "404",
+        "city not found"
+      ],
+      "line": 151
     }
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "6",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 95565300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "6",
+      "offset": 87
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckMessageInResponseBodyWhenResponseFailWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 22466100,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 162,
+  "line": 167,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;",
@@ -11241,21 +11830,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 163,
+      "line": 168,
       "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;1"
     },
     {
       "cells": [
         "7"
       ],
-      "line": 164,
+      "line": 169,
       "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 164,
+  "line": 169,
   "name": "Verify Message Error when response is error",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;2",
@@ -11263,7 +11852,7 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 122,
+      "line": 125,
       "name": "@NAB_REQ_2.2"
     },
     {
@@ -11273,7 +11862,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "line": 124,
+  "line": 127,
   "name": "user sends API SearchWeather request with information corresponding \"7\"",
   "matchedColumns": [
     0
@@ -11285,7 +11874,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 125
+      "line": 128
     },
     {
       "cells": [
@@ -11293,7 +11882,7 @@ formatter.step({
         "city name not exists",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 126
+      "line": 129
     },
     {
       "cells": [
@@ -11301,7 +11890,7 @@ formatter.step({
         "",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 127
+      "line": 130
     },
     {
       "cells": [
@@ -11309,7 +11898,7 @@ formatter.step({
         "",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 128
+      "line": 131
     },
     {
       "cells": [
@@ -11317,7 +11906,7 @@ formatter.step({
         "BG",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 129
+      "line": 132
     },
     {
       "cells": [
@@ -11325,7 +11914,7 @@ formatter.step({
         "ha noi vn",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 130
+      "line": 133
     },
     {
       "cells": [
@@ -11333,7 +11922,7 @@ formatter.step({
         "ha noi, cn",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 131
+      "line": 134
     },
     {
       "cells": [
@@ -11341,7 +11930,7 @@ formatter.step({
         "Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 132
+      "line": 135
     },
     {
       "cells": [
@@ -11349,7 +11938,7 @@ formatter.step({
         "hanoi",
         "appid not exists"
       ],
-      "line": 133
+      "line": 136
     },
     {
       "cells": [
@@ -11357,13 +11946,21 @@ formatter.step({
         "hanoi",
         "57c1c22050f92b6d7a0a4c5716912bbe"
       ],
-      "line": 134
+      "line": 137
+    },
+    {
+      "cells": [
+        "21",
+        "Hà Nam,",
+        "cc0fffc8405efdadca37749bbc586e41"
+      ],
+      "line": 138
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 136,
+  "line": 140,
   "name": "user check message in response body when response fail with information corresponding \"7\"",
   "matchedColumns": [
     0
@@ -11376,7 +11973,7 @@ formatter.step({
         "cod",
         "message"
       ],
-      "line": 137
+      "line": 141
     },
     {
       "cells": [
@@ -11385,7 +11982,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 138
+      "line": 142
     },
     {
       "cells": [
@@ -11394,7 +11991,7 @@ formatter.step({
         "400",
         "Nothing to geocode"
       ],
-      "line": 139
+      "line": 143
     },
     {
       "cells": [
@@ -11403,7 +12000,7 @@ formatter.step({
         "400",
         "Nothing to geocode"
       ],
-      "line": 140
+      "line": 144
     },
     {
       "cells": [
@@ -11412,7 +12009,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 141
+      "line": 145
     },
     {
       "cells": [
@@ -11421,7 +12018,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 142
+      "line": 146
     },
     {
       "cells": [
@@ -11430,7 +12027,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 143
+      "line": 147
     },
     {
       "cells": [
@@ -11439,7 +12036,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 144
+      "line": 148
     },
     {
       "cells": [
@@ -11448,7 +12045,7 @@ formatter.step({
         "401",
         "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
       ],
-      "line": 145
+      "line": 149
     },
     {
       "cells": [
@@ -11457,21 +12054,48 @@ formatter.step({
         "401",
         "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
       ],
-      "line": 146
+      "line": 150
+    },
+    {
+      "cells": [
+        "21",
+        "404",
+        "404",
+        "city not found"
+      ],
+      "line": 151
     }
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "7",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 105052700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "7",
+      "offset": 87
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckMessageInResponseBodyWhenResponseFailWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 24282600,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 165,
+  "line": 170,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;",
@@ -11480,21 +12104,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 166,
+      "line": 171,
       "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;1"
     },
     {
       "cells": [
         "8"
       ],
-      "line": 167,
+      "line": 172,
       "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 167,
+  "line": 172,
   "name": "Verify Message Error when response is error",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;2",
@@ -11502,7 +12126,7 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 122,
+      "line": 125,
       "name": "@NAB_REQ_2.2"
     },
     {
@@ -11512,7 +12136,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "line": 124,
+  "line": 127,
   "name": "user sends API SearchWeather request with information corresponding \"8\"",
   "matchedColumns": [
     0
@@ -11524,7 +12148,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 125
+      "line": 128
     },
     {
       "cells": [
@@ -11532,7 +12156,7 @@ formatter.step({
         "city name not exists",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 126
+      "line": 129
     },
     {
       "cells": [
@@ -11540,7 +12164,7 @@ formatter.step({
         "",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 127
+      "line": 130
     },
     {
       "cells": [
@@ -11548,7 +12172,7 @@ formatter.step({
         "",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 128
+      "line": 131
     },
     {
       "cells": [
@@ -11556,7 +12180,7 @@ formatter.step({
         "BG",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 129
+      "line": 132
     },
     {
       "cells": [
@@ -11564,7 +12188,7 @@ formatter.step({
         "ha noi vn",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 130
+      "line": 133
     },
     {
       "cells": [
@@ -11572,7 +12196,7 @@ formatter.step({
         "ha noi, cn",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 131
+      "line": 134
     },
     {
       "cells": [
@@ -11580,7 +12204,7 @@ formatter.step({
         "Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 132
+      "line": 135
     },
     {
       "cells": [
@@ -11588,7 +12212,7 @@ formatter.step({
         "hanoi",
         "appid not exists"
       ],
-      "line": 133
+      "line": 136
     },
     {
       "cells": [
@@ -11596,13 +12220,21 @@ formatter.step({
         "hanoi",
         "57c1c22050f92b6d7a0a4c5716912bbe"
       ],
-      "line": 134
+      "line": 137
+    },
+    {
+      "cells": [
+        "21",
+        "Hà Nam,",
+        "cc0fffc8405efdadca37749bbc586e41"
+      ],
+      "line": 138
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 136,
+  "line": 140,
   "name": "user check message in response body when response fail with information corresponding \"8\"",
   "matchedColumns": [
     0
@@ -11615,7 +12247,7 @@ formatter.step({
         "cod",
         "message"
       ],
-      "line": 137
+      "line": 141
     },
     {
       "cells": [
@@ -11624,7 +12256,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 138
+      "line": 142
     },
     {
       "cells": [
@@ -11633,7 +12265,7 @@ formatter.step({
         "400",
         "Nothing to geocode"
       ],
-      "line": 139
+      "line": 143
     },
     {
       "cells": [
@@ -11642,7 +12274,7 @@ formatter.step({
         "400",
         "Nothing to geocode"
       ],
-      "line": 140
+      "line": 144
     },
     {
       "cells": [
@@ -11651,7 +12283,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 141
+      "line": 145
     },
     {
       "cells": [
@@ -11660,7 +12292,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 142
+      "line": 146
     },
     {
       "cells": [
@@ -11669,7 +12301,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 143
+      "line": 147
     },
     {
       "cells": [
@@ -11678,7 +12310,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 144
+      "line": 148
     },
     {
       "cells": [
@@ -11687,7 +12319,7 @@ formatter.step({
         "401",
         "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
       ],
-      "line": 145
+      "line": 149
     },
     {
       "cells": [
@@ -11696,21 +12328,48 @@ formatter.step({
         "401",
         "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
       ],
-      "line": 146
+      "line": 150
+    },
+    {
+      "cells": [
+        "21",
+        "404",
+        "404",
+        "city not found"
+      ],
+      "line": 151
     }
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "8",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 103041600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "8",
+      "offset": 87
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckMessageInResponseBodyWhenResponseFailWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 26760700,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 168,
+  "line": 173,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;",
@@ -11719,21 +12378,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 169,
+      "line": 174,
       "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;1"
     },
     {
       "cells": [
         "10"
       ],
-      "line": 170,
+      "line": 175,
       "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 170,
+  "line": 175,
   "name": "Verify Message Error when response is error",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;2",
@@ -11741,7 +12400,7 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 122,
+      "line": 125,
       "name": "@NAB_REQ_2.2"
     },
     {
@@ -11751,7 +12410,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "line": 124,
+  "line": 127,
   "name": "user sends API SearchWeather request with information corresponding \"10\"",
   "matchedColumns": [
     0
@@ -11763,7 +12422,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 125
+      "line": 128
     },
     {
       "cells": [
@@ -11771,7 +12430,7 @@ formatter.step({
         "city name not exists",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 126
+      "line": 129
     },
     {
       "cells": [
@@ -11779,7 +12438,7 @@ formatter.step({
         "",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 127
+      "line": 130
     },
     {
       "cells": [
@@ -11787,7 +12446,7 @@ formatter.step({
         "",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 128
+      "line": 131
     },
     {
       "cells": [
@@ -11795,7 +12454,7 @@ formatter.step({
         "BG",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 129
+      "line": 132
     },
     {
       "cells": [
@@ -11803,7 +12462,7 @@ formatter.step({
         "ha noi vn",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 130
+      "line": 133
     },
     {
       "cells": [
@@ -11811,7 +12470,7 @@ formatter.step({
         "ha noi, cn",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 131
+      "line": 134
     },
     {
       "cells": [
@@ -11819,7 +12478,7 @@ formatter.step({
         "Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 132
+      "line": 135
     },
     {
       "cells": [
@@ -11827,7 +12486,7 @@ formatter.step({
         "hanoi",
         "appid not exists"
       ],
-      "line": 133
+      "line": 136
     },
     {
       "cells": [
@@ -11835,13 +12494,21 @@ formatter.step({
         "hanoi",
         "57c1c22050f92b6d7a0a4c5716912bbe"
       ],
-      "line": 134
+      "line": 137
+    },
+    {
+      "cells": [
+        "21",
+        "Hà Nam,",
+        "cc0fffc8405efdadca37749bbc586e41"
+      ],
+      "line": 138
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 136,
+  "line": 140,
   "name": "user check message in response body when response fail with information corresponding \"10\"",
   "matchedColumns": [
     0
@@ -11854,7 +12521,7 @@ formatter.step({
         "cod",
         "message"
       ],
-      "line": 137
+      "line": 141
     },
     {
       "cells": [
@@ -11863,7 +12530,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 138
+      "line": 142
     },
     {
       "cells": [
@@ -11872,7 +12539,7 @@ formatter.step({
         "400",
         "Nothing to geocode"
       ],
-      "line": 139
+      "line": 143
     },
     {
       "cells": [
@@ -11881,7 +12548,7 @@ formatter.step({
         "400",
         "Nothing to geocode"
       ],
-      "line": 140
+      "line": 144
     },
     {
       "cells": [
@@ -11890,7 +12557,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 141
+      "line": 145
     },
     {
       "cells": [
@@ -11899,7 +12566,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 142
+      "line": 146
     },
     {
       "cells": [
@@ -11908,7 +12575,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 143
+      "line": 147
     },
     {
       "cells": [
@@ -11917,7 +12584,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 144
+      "line": 148
     },
     {
       "cells": [
@@ -11926,7 +12593,7 @@ formatter.step({
         "401",
         "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
       ],
-      "line": 145
+      "line": 149
     },
     {
       "cells": [
@@ -11935,21 +12602,48 @@ formatter.step({
         "401",
         "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
       ],
-      "line": 146
+      "line": 150
+    },
+    {
+      "cells": [
+        "21",
+        "404",
+        "404",
+        "city not found"
+      ],
+      "line": 151
     }
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "10",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 105600300,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "10",
+      "offset": 87
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckMessageInResponseBodyWhenResponseFailWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 17791600,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 171,
+  "line": 176,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;",
@@ -11958,21 +12652,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 172,
+      "line": 177,
       "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;1"
     },
     {
       "cells": [
         "11"
       ],
-      "line": 173,
+      "line": 178,
       "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 173,
+  "line": 178,
   "name": "Verify Message Error when response is error",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;2",
@@ -11980,7 +12674,7 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
-      "line": 122,
+      "line": 125,
       "name": "@NAB_REQ_2.2"
     },
     {
@@ -11990,7 +12684,7 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "line": 124,
+  "line": 127,
   "name": "user sends API SearchWeather request with information corresponding \"11\"",
   "matchedColumns": [
     0
@@ -12002,7 +12696,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 125
+      "line": 128
     },
     {
       "cells": [
@@ -12010,7 +12704,7 @@ formatter.step({
         "city name not exists",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 126
+      "line": 129
     },
     {
       "cells": [
@@ -12018,7 +12712,7 @@ formatter.step({
         "",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 127
+      "line": 130
     },
     {
       "cells": [
@@ -12026,7 +12720,7 @@ formatter.step({
         "",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 128
+      "line": 131
     },
     {
       "cells": [
@@ -12034,7 +12728,7 @@ formatter.step({
         "BG",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 129
+      "line": 132
     },
     {
       "cells": [
@@ -12042,7 +12736,7 @@ formatter.step({
         "ha noi vn",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 130
+      "line": 133
     },
     {
       "cells": [
@@ -12050,7 +12744,7 @@ formatter.step({
         "ha noi, cn",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 131
+      "line": 134
     },
     {
       "cells": [
@@ -12058,7 +12752,7 @@ formatter.step({
         "Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 132
+      "line": 135
     },
     {
       "cells": [
@@ -12066,7 +12760,7 @@ formatter.step({
         "hanoi",
         "appid not exists"
       ],
-      "line": 133
+      "line": 136
     },
     {
       "cells": [
@@ -12074,13 +12768,21 @@ formatter.step({
         "hanoi",
         "57c1c22050f92b6d7a0a4c5716912bbe"
       ],
-      "line": 134
+      "line": 137
+    },
+    {
+      "cells": [
+        "21",
+        "Hà Nam,",
+        "cc0fffc8405efdadca37749bbc586e41"
+      ],
+      "line": 138
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 136,
+  "line": 140,
   "name": "user check message in response body when response fail with information corresponding \"11\"",
   "matchedColumns": [
     0
@@ -12093,7 +12795,7 @@ formatter.step({
         "cod",
         "message"
       ],
-      "line": 137
+      "line": 141
     },
     {
       "cells": [
@@ -12102,7 +12804,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 138
+      "line": 142
     },
     {
       "cells": [
@@ -12111,7 +12813,7 @@ formatter.step({
         "400",
         "Nothing to geocode"
       ],
-      "line": 139
+      "line": 143
     },
     {
       "cells": [
@@ -12120,7 +12822,7 @@ formatter.step({
         "400",
         "Nothing to geocode"
       ],
-      "line": 140
+      "line": 144
     },
     {
       "cells": [
@@ -12129,7 +12831,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 141
+      "line": 145
     },
     {
       "cells": [
@@ -12138,7 +12840,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 142
+      "line": 146
     },
     {
       "cells": [
@@ -12147,7 +12849,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 143
+      "line": 147
     },
     {
       "cells": [
@@ -12156,7 +12858,7 @@ formatter.step({
         "404",
         "city not found"
       ],
-      "line": 144
+      "line": 148
     },
     {
       "cells": [
@@ -12165,7 +12867,7 @@ formatter.step({
         "401",
         "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
       ],
-      "line": 145
+      "line": 149
     },
     {
       "cells": [
@@ -12174,29 +12876,336 @@ formatter.step({
         "401",
         "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
       ],
-      "line": 146
+      "line": 150
+    },
+    {
+      "cells": [
+        "21",
+        "404",
+        "404",
+        "city not found"
+      ],
+      "line": 151
     }
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "11",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 92599100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "11",
+      "offset": 87
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckMessageInResponseBodyWhenResponseFailWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 29655700,
+  "status": "passed"
+});
+formatter.examples({
+  "line": 179,
+  "name": "",
+  "description": "",
+  "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;",
+  "rows": [
+    {
+      "cells": [
+        "KEY"
+      ],
+      "line": 180,
+      "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;1"
+    },
+    {
+      "cells": [
+        "21"
+      ],
+      "line": 181,
+      "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.scenario({
+  "line": 181,
+  "name": "Verify Message Error when response is error",
+  "description": "",
+  "id": "test-api-search-weather-in-your-city;verify-message-error-when-response-is-error;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 125,
+      "name": "@NAB_REQ_2.2"
+    },
+    {
+      "line": 1,
+      "name": "@searchWeather"
+    }
+  ]
+});
+formatter.step({
+  "line": 127,
+  "name": "user sends API SearchWeather request with information corresponding \"21\"",
+  "matchedColumns": [
+    0
+  ],
+  "rows": [
+    {
+      "cells": [
+        "KEY",
+        "city_name",
+        "api_key"
+      ],
+      "line": 128
+    },
+    {
+      "cells": [
+        "2",
+        "city name not exists",
+        "cc0fffc8405efdadca37749bbc586e41"
+      ],
+      "line": 129
+    },
+    {
+      "cells": [
+        "3",
+        "",
+        "cc0fffc8405efdadca37749bbc586e41"
+      ],
+      "line": 130
+    },
+    {
+      "cells": [
+        "4",
+        "",
+        "cc0fffc8405efdadca37749bbc586e41"
+      ],
+      "line": 131
+    },
+    {
+      "cells": [
+        "5",
+        "BG",
+        "cc0fffc8405efdadca37749bbc586e41"
+      ],
+      "line": 132
+    },
+    {
+      "cells": [
+        "6",
+        "ha noi vn",
+        "cc0fffc8405efdadca37749bbc586e41"
+      ],
+      "line": 133
+    },
+    {
+      "cells": [
+        "7",
+        "ha noi, cn",
+        "cc0fffc8405efdadca37749bbc586e41"
+      ],
+      "line": 134
+    },
+    {
+      "cells": [
+        "8",
+        "Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit",
+        "cc0fffc8405efdadca37749bbc586e41"
+      ],
+      "line": 135
+    },
+    {
+      "cells": [
+        "10",
+        "hanoi",
+        "appid not exists"
+      ],
+      "line": 136
+    },
+    {
+      "cells": [
+        "11",
+        "hanoi",
+        "57c1c22050f92b6d7a0a4c5716912bbe"
+      ],
+      "line": 137
+    },
+    {
+      "cells": [
+        "21",
+        "Hà Nam,",
+        "cc0fffc8405efdadca37749bbc586e41"
+      ],
+      "line": 138
+    }
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 140,
+  "name": "user check message in response body when response fail with information corresponding \"21\"",
+  "matchedColumns": [
+    0
+  ],
+  "rows": [
+    {
+      "cells": [
+        "KEY",
+        "response_code",
+        "cod",
+        "message"
+      ],
+      "line": 141
+    },
+    {
+      "cells": [
+        "2",
+        "404",
+        "404",
+        "city not found"
+      ],
+      "line": 142
+    },
+    {
+      "cells": [
+        "3",
+        "400",
+        "400",
+        "Nothing to geocode"
+      ],
+      "line": 143
+    },
+    {
+      "cells": [
+        "4",
+        "400",
+        "400",
+        "Nothing to geocode"
+      ],
+      "line": 144
+    },
+    {
+      "cells": [
+        "5",
+        "404",
+        "404",
+        "city not found"
+      ],
+      "line": 145
+    },
+    {
+      "cells": [
+        "6",
+        "404",
+        "404",
+        "city not found"
+      ],
+      "line": 146
+    },
+    {
+      "cells": [
+        "7",
+        "404",
+        "404",
+        "city not found"
+      ],
+      "line": 147
+    },
+    {
+      "cells": [
+        "8",
+        "404",
+        "404",
+        "city not found"
+      ],
+      "line": 148
+    },
+    {
+      "cells": [
+        "10",
+        "401",
+        "401",
+        "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
+      ],
+      "line": 149
+    },
+    {
+      "cells": [
+        "11",
+        "401",
+        "401",
+        "Invalid API key. Please see http://openweathermap.org/faq#error401 for more info."
+      ],
+      "line": 150
+    },
+    {
+      "cells": [
+        "21",
+        "404",
+        "404",
+        "city not found"
+      ],
+      "line": 151
+    }
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "21",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 103083900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "21",
+      "offset": 87
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckMessageInResponseBodyWhenResponseFailWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 19748200,
+  "status": "passed"
 });
 formatter.scenarioOutline({
-  "line": 176,
+  "line": 184,
   "name": "Verify Content in Body when Response is 200",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200",
   "type": "scenario_outline",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 183,
+      "name": "@NAB_REQ_2.3"
+    }
+  ]
 });
 formatter.step({
-  "line": 177,
+  "line": 185,
   "name": "user sends API SearchWeather request with information corresponding \"\u003cKEY\u003e\"",
   "rows": [
     {
@@ -12205,7 +13214,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 178
+      "line": 186
     },
     {
       "cells": [
@@ -12213,7 +13222,7 @@ formatter.step({
         "London",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 179
+      "line": 187
     },
     {
       "cells": [
@@ -12221,7 +13230,7 @@ formatter.step({
         "Tokyo",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 180
+      "line": 188
     },
     {
       "cells": [
@@ -12229,7 +13238,7 @@ formatter.step({
         "Thành phố hồ chí minh",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 181
+      "line": 189
     },
     {
       "cells": [
@@ -12237,7 +13246,7 @@ formatter.step({
         "Thai nguyen",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 182
+      "line": 190
     },
     {
       "cells": [
@@ -12245,7 +13254,7 @@ formatter.step({
         "上海",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 183
+      "line": 191
     },
     {
       "cells": [
@@ -12253,7 +13262,7 @@ formatter.step({
         "Chengdu",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 184
+      "line": 192
     },
     {
       "cells": [
@@ -12261,7 +13270,7 @@ formatter.step({
         "東京都",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 185
+      "line": 193
     },
     {
       "cells": [
@@ -12269,7 +13278,7 @@ formatter.step({
         "Nagoya",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 186
+      "line": 194
     },
     {
       "cells": [
@@ -12277,15 +13286,7 @@ formatter.step({
         "Hà Nội, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 187
-    },
-    {
-      "cells": [
-        "21",
-        "Hà Nam,",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 188
+      "line": 195
     },
     {
       "cells": [
@@ -12293,7 +13294,7 @@ formatter.step({
         "Bắc Giang, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 189
+      "line": 196
     },
     {
       "cells": [
@@ -12301,7 +13302,7 @@ formatter.step({
         "Cần     Thơ",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 190
+      "line": 197
     },
     {
       "cells": [
@@ -12309,13 +13310,13 @@ formatter.step({
         "Vĩnh Long, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 191
+      "line": 198
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 193,
+  "line": 200,
   "name": "user check city name and country for response successfully with information corresponding \"\u003cKEY\u003e\"",
   "rows": [
     {
@@ -12327,7 +13328,7 @@ formatter.step({
         "city_name_expected",
         "country_expected"
       ],
-      "line": 194
+      "line": 201
     },
     {
       "cells": [
@@ -12338,7 +13339,7 @@ formatter.step({
         "London",
         "GB"
       ],
-      "line": 195
+      "line": 202
     },
     {
       "cells": [
@@ -12349,7 +13350,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 196
+      "line": 203
     },
     {
       "cells": [
@@ -12360,7 +13361,7 @@ formatter.step({
         "Ho Chi Minh City",
         "VN"
       ],
-      "line": 197
+      "line": 204
     },
     {
       "cells": [
@@ -12371,7 +13372,7 @@ formatter.step({
         "Thai Nguyen",
         "VN"
       ],
-      "line": 198
+      "line": 205
     },
     {
       "cells": [
@@ -12382,7 +13383,7 @@ formatter.step({
         "Shanghai",
         "CN"
       ],
-      "line": 199
+      "line": 206
     },
     {
       "cells": [
@@ -12393,7 +13394,7 @@ formatter.step({
         "Chengdu",
         "CN"
       ],
-      "line": 200
+      "line": 207
     },
     {
       "cells": [
@@ -12404,7 +13405,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 201
+      "line": 208
     },
     {
       "cells": [
@@ -12415,7 +13416,7 @@ formatter.step({
         "Nagoya",
         "JP"
       ],
-      "line": 202
+      "line": 209
     },
     {
       "cells": [
@@ -12426,18 +13427,7 @@ formatter.step({
         "Hanoi",
         "VN"
       ],
-      "line": 203
-    },
-    {
-      "cells": [
-        "21",
-        "200",
-        "200",
-        "",
-        "Hà Nam",
-        "VN"
-      ],
-      "line": 204
+      "line": 210
     },
     {
       "cells": [
@@ -12448,7 +13438,7 @@ formatter.step({
         "Bắc Giang",
         "VN"
       ],
-      "line": 205
+      "line": 212
     },
     {
       "cells": [
@@ -12459,7 +13449,7 @@ formatter.step({
         "Can Tho",
         "VN"
       ],
-      "line": 206
+      "line": 213
     },
     {
       "cells": [
@@ -12470,13 +13460,13 @@ formatter.step({
         "Vĩnh Long",
         "VN"
       ],
-      "line": 207
+      "line": 214
     }
   ],
   "keyword": "Then "
 });
 formatter.examples({
-  "line": 208,
+  "line": 215,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;",
@@ -12485,21 +13475,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 209,
+      "line": 216,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;1"
     },
     {
       "cells": [
         "12"
       ],
-      "line": 210,
+      "line": 217,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 210,
+  "line": 217,
   "name": "Verify Content in Body when Response is 200",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2",
@@ -12507,13 +13497,17 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
+      "line": 183,
+      "name": "@NAB_REQ_2.3"
+    },
+    {
       "line": 1,
       "name": "@searchWeather"
     }
   ]
 });
 formatter.step({
-  "line": 177,
+  "line": 185,
   "name": "user sends API SearchWeather request with information corresponding \"12\"",
   "matchedColumns": [
     0
@@ -12525,7 +13519,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 178
+      "line": 186
     },
     {
       "cells": [
@@ -12533,7 +13527,7 @@ formatter.step({
         "London",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 179
+      "line": 187
     },
     {
       "cells": [
@@ -12541,7 +13535,7 @@ formatter.step({
         "Tokyo",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 180
+      "line": 188
     },
     {
       "cells": [
@@ -12549,7 +13543,7 @@ formatter.step({
         "Thành phố hồ chí minh",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 181
+      "line": 189
     },
     {
       "cells": [
@@ -12557,7 +13551,7 @@ formatter.step({
         "Thai nguyen",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 182
+      "line": 190
     },
     {
       "cells": [
@@ -12565,7 +13559,7 @@ formatter.step({
         "上海",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 183
+      "line": 191
     },
     {
       "cells": [
@@ -12573,7 +13567,7 @@ formatter.step({
         "Chengdu",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 184
+      "line": 192
     },
     {
       "cells": [
@@ -12581,7 +13575,7 @@ formatter.step({
         "東京都",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 185
+      "line": 193
     },
     {
       "cells": [
@@ -12589,7 +13583,7 @@ formatter.step({
         "Nagoya",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 186
+      "line": 194
     },
     {
       "cells": [
@@ -12597,15 +13591,7 @@ formatter.step({
         "Hà Nội, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 187
-    },
-    {
-      "cells": [
-        "21",
-        "Hà Nam,",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 188
+      "line": 195
     },
     {
       "cells": [
@@ -12613,7 +13599,7 @@ formatter.step({
         "Bắc Giang, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 189
+      "line": 196
     },
     {
       "cells": [
@@ -12621,7 +13607,7 @@ formatter.step({
         "Cần     Thơ",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 190
+      "line": 197
     },
     {
       "cells": [
@@ -12629,13 +13615,13 @@ formatter.step({
         "Vĩnh Long, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 191
+      "line": 198
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 193,
+  "line": 200,
   "name": "user check city name and country for response successfully with information corresponding \"12\"",
   "matchedColumns": [
     0
@@ -12650,7 +13636,7 @@ formatter.step({
         "city_name_expected",
         "country_expected"
       ],
-      "line": 194
+      "line": 201
     },
     {
       "cells": [
@@ -12661,7 +13647,7 @@ formatter.step({
         "London",
         "GB"
       ],
-      "line": 195
+      "line": 202
     },
     {
       "cells": [
@@ -12672,7 +13658,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 196
+      "line": 203
     },
     {
       "cells": [
@@ -12683,7 +13669,7 @@ formatter.step({
         "Ho Chi Minh City",
         "VN"
       ],
-      "line": 197
+      "line": 204
     },
     {
       "cells": [
@@ -12694,7 +13680,7 @@ formatter.step({
         "Thai Nguyen",
         "VN"
       ],
-      "line": 198
+      "line": 205
     },
     {
       "cells": [
@@ -12705,7 +13691,7 @@ formatter.step({
         "Shanghai",
         "CN"
       ],
-      "line": 199
+      "line": 206
     },
     {
       "cells": [
@@ -12716,7 +13702,7 @@ formatter.step({
         "Chengdu",
         "CN"
       ],
-      "line": 200
+      "line": 207
     },
     {
       "cells": [
@@ -12727,7 +13713,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 201
+      "line": 208
     },
     {
       "cells": [
@@ -12738,7 +13724,7 @@ formatter.step({
         "Nagoya",
         "JP"
       ],
-      "line": 202
+      "line": 209
     },
     {
       "cells": [
@@ -12749,18 +13735,7 @@ formatter.step({
         "Hanoi",
         "VN"
       ],
-      "line": 203
-    },
-    {
-      "cells": [
-        "21",
-        "200",
-        "200",
-        "",
-        "Hà Nam",
-        "VN"
-      ],
-      "line": 204
+      "line": 210
     },
     {
       "cells": [
@@ -12771,7 +13746,7 @@ formatter.step({
         "Bắc Giang",
         "VN"
       ],
-      "line": 205
+      "line": 212
     },
     {
       "cells": [
@@ -12782,7 +13757,7 @@ formatter.step({
         "Can Tho",
         "VN"
       ],
-      "line": 206
+      "line": 213
     },
     {
       "cells": [
@@ -12793,21 +13768,39 @@ formatter.step({
         "Vĩnh Long",
         "VN"
       ],
-      "line": 207
+      "line": 214
     }
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "12",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 93188400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "12",
+      "offset": 91
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 39774700,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 211,
+  "line": 218,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;",
@@ -12816,21 +13809,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 212,
+      "line": 219,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;1"
     },
     {
       "cells": [
         "13"
       ],
-      "line": 213,
+      "line": 220,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 213,
+  "line": 220,
   "name": "Verify Content in Body when Response is 200",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2",
@@ -12838,13 +13831,17 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
+      "line": 183,
+      "name": "@NAB_REQ_2.3"
+    },
+    {
       "line": 1,
       "name": "@searchWeather"
     }
   ]
 });
 formatter.step({
-  "line": 177,
+  "line": 185,
   "name": "user sends API SearchWeather request with information corresponding \"13\"",
   "matchedColumns": [
     0
@@ -12856,7 +13853,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 178
+      "line": 186
     },
     {
       "cells": [
@@ -12864,7 +13861,7 @@ formatter.step({
         "London",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 179
+      "line": 187
     },
     {
       "cells": [
@@ -12872,7 +13869,7 @@ formatter.step({
         "Tokyo",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 180
+      "line": 188
     },
     {
       "cells": [
@@ -12880,7 +13877,7 @@ formatter.step({
         "Thành phố hồ chí minh",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 181
+      "line": 189
     },
     {
       "cells": [
@@ -12888,7 +13885,7 @@ formatter.step({
         "Thai nguyen",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 182
+      "line": 190
     },
     {
       "cells": [
@@ -12896,7 +13893,7 @@ formatter.step({
         "上海",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 183
+      "line": 191
     },
     {
       "cells": [
@@ -12904,7 +13901,7 @@ formatter.step({
         "Chengdu",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 184
+      "line": 192
     },
     {
       "cells": [
@@ -12912,7 +13909,7 @@ formatter.step({
         "東京都",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 185
+      "line": 193
     },
     {
       "cells": [
@@ -12920,7 +13917,7 @@ formatter.step({
         "Nagoya",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 186
+      "line": 194
     },
     {
       "cells": [
@@ -12928,15 +13925,7 @@ formatter.step({
         "Hà Nội, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 187
-    },
-    {
-      "cells": [
-        "21",
-        "Hà Nam,",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 188
+      "line": 195
     },
     {
       "cells": [
@@ -12944,7 +13933,7 @@ formatter.step({
         "Bắc Giang, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 189
+      "line": 196
     },
     {
       "cells": [
@@ -12952,7 +13941,7 @@ formatter.step({
         "Cần     Thơ",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 190
+      "line": 197
     },
     {
       "cells": [
@@ -12960,13 +13949,13 @@ formatter.step({
         "Vĩnh Long, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 191
+      "line": 198
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 193,
+  "line": 200,
   "name": "user check city name and country for response successfully with information corresponding \"13\"",
   "matchedColumns": [
     0
@@ -12981,7 +13970,7 @@ formatter.step({
         "city_name_expected",
         "country_expected"
       ],
-      "line": 194
+      "line": 201
     },
     {
       "cells": [
@@ -12992,7 +13981,7 @@ formatter.step({
         "London",
         "GB"
       ],
-      "line": 195
+      "line": 202
     },
     {
       "cells": [
@@ -13003,7 +13992,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 196
+      "line": 203
     },
     {
       "cells": [
@@ -13014,7 +14003,7 @@ formatter.step({
         "Ho Chi Minh City",
         "VN"
       ],
-      "line": 197
+      "line": 204
     },
     {
       "cells": [
@@ -13025,7 +14014,7 @@ formatter.step({
         "Thai Nguyen",
         "VN"
       ],
-      "line": 198
+      "line": 205
     },
     {
       "cells": [
@@ -13036,7 +14025,7 @@ formatter.step({
         "Shanghai",
         "CN"
       ],
-      "line": 199
+      "line": 206
     },
     {
       "cells": [
@@ -13047,7 +14036,7 @@ formatter.step({
         "Chengdu",
         "CN"
       ],
-      "line": 200
+      "line": 207
     },
     {
       "cells": [
@@ -13058,7 +14047,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 201
+      "line": 208
     },
     {
       "cells": [
@@ -13069,7 +14058,7 @@ formatter.step({
         "Nagoya",
         "JP"
       ],
-      "line": 202
+      "line": 209
     },
     {
       "cells": [
@@ -13080,18 +14069,7 @@ formatter.step({
         "Hanoi",
         "VN"
       ],
-      "line": 203
-    },
-    {
-      "cells": [
-        "21",
-        "200",
-        "200",
-        "",
-        "Hà Nam",
-        "VN"
-      ],
-      "line": 204
+      "line": 210
     },
     {
       "cells": [
@@ -13102,7 +14080,7 @@ formatter.step({
         "Bắc Giang",
         "VN"
       ],
-      "line": 205
+      "line": 212
     },
     {
       "cells": [
@@ -13113,7 +14091,7 @@ formatter.step({
         "Can Tho",
         "VN"
       ],
-      "line": 206
+      "line": 213
     },
     {
       "cells": [
@@ -13124,21 +14102,39 @@ formatter.step({
         "Vĩnh Long",
         "VN"
       ],
-      "line": 207
+      "line": 214
     }
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "13",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 91415900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "13",
+      "offset": 91
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 45481900,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 214,
+  "line": 221,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;",
@@ -13147,21 +14143,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 215,
+      "line": 222,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;1"
     },
     {
       "cells": [
         "14"
       ],
-      "line": 216,
+      "line": 223,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 216,
+  "line": 223,
   "name": "Verify Content in Body when Response is 200",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2",
@@ -13169,13 +14165,17 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
+      "line": 183,
+      "name": "@NAB_REQ_2.3"
+    },
+    {
       "line": 1,
       "name": "@searchWeather"
     }
   ]
 });
 formatter.step({
-  "line": 177,
+  "line": 185,
   "name": "user sends API SearchWeather request with information corresponding \"14\"",
   "matchedColumns": [
     0
@@ -13187,7 +14187,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 178
+      "line": 186
     },
     {
       "cells": [
@@ -13195,7 +14195,7 @@ formatter.step({
         "London",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 179
+      "line": 187
     },
     {
       "cells": [
@@ -13203,7 +14203,7 @@ formatter.step({
         "Tokyo",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 180
+      "line": 188
     },
     {
       "cells": [
@@ -13211,7 +14211,7 @@ formatter.step({
         "Thành phố hồ chí minh",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 181
+      "line": 189
     },
     {
       "cells": [
@@ -13219,7 +14219,7 @@ formatter.step({
         "Thai nguyen",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 182
+      "line": 190
     },
     {
       "cells": [
@@ -13227,7 +14227,7 @@ formatter.step({
         "上海",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 183
+      "line": 191
     },
     {
       "cells": [
@@ -13235,7 +14235,7 @@ formatter.step({
         "Chengdu",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 184
+      "line": 192
     },
     {
       "cells": [
@@ -13243,7 +14243,7 @@ formatter.step({
         "東京都",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 185
+      "line": 193
     },
     {
       "cells": [
@@ -13251,7 +14251,7 @@ formatter.step({
         "Nagoya",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 186
+      "line": 194
     },
     {
       "cells": [
@@ -13259,15 +14259,7 @@ formatter.step({
         "Hà Nội, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 187
-    },
-    {
-      "cells": [
-        "21",
-        "Hà Nam,",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 188
+      "line": 195
     },
     {
       "cells": [
@@ -13275,7 +14267,7 @@ formatter.step({
         "Bắc Giang, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 189
+      "line": 196
     },
     {
       "cells": [
@@ -13283,7 +14275,7 @@ formatter.step({
         "Cần     Thơ",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 190
+      "line": 197
     },
     {
       "cells": [
@@ -13291,13 +14283,13 @@ formatter.step({
         "Vĩnh Long, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 191
+      "line": 198
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 193,
+  "line": 200,
   "name": "user check city name and country for response successfully with information corresponding \"14\"",
   "matchedColumns": [
     0
@@ -13312,7 +14304,7 @@ formatter.step({
         "city_name_expected",
         "country_expected"
       ],
-      "line": 194
+      "line": 201
     },
     {
       "cells": [
@@ -13323,7 +14315,7 @@ formatter.step({
         "London",
         "GB"
       ],
-      "line": 195
+      "line": 202
     },
     {
       "cells": [
@@ -13334,7 +14326,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 196
+      "line": 203
     },
     {
       "cells": [
@@ -13345,7 +14337,7 @@ formatter.step({
         "Ho Chi Minh City",
         "VN"
       ],
-      "line": 197
+      "line": 204
     },
     {
       "cells": [
@@ -13356,7 +14348,7 @@ formatter.step({
         "Thai Nguyen",
         "VN"
       ],
-      "line": 198
+      "line": 205
     },
     {
       "cells": [
@@ -13367,7 +14359,7 @@ formatter.step({
         "Shanghai",
         "CN"
       ],
-      "line": 199
+      "line": 206
     },
     {
       "cells": [
@@ -13378,7 +14370,7 @@ formatter.step({
         "Chengdu",
         "CN"
       ],
-      "line": 200
+      "line": 207
     },
     {
       "cells": [
@@ -13389,7 +14381,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 201
+      "line": 208
     },
     {
       "cells": [
@@ -13400,7 +14392,7 @@ formatter.step({
         "Nagoya",
         "JP"
       ],
-      "line": 202
+      "line": 209
     },
     {
       "cells": [
@@ -13411,18 +14403,7 @@ formatter.step({
         "Hanoi",
         "VN"
       ],
-      "line": 203
-    },
-    {
-      "cells": [
-        "21",
-        "200",
-        "200",
-        "",
-        "Hà Nam",
-        "VN"
-      ],
-      "line": 204
+      "line": 210
     },
     {
       "cells": [
@@ -13433,7 +14414,7 @@ formatter.step({
         "Bắc Giang",
         "VN"
       ],
-      "line": 205
+      "line": 212
     },
     {
       "cells": [
@@ -13444,7 +14425,7 @@ formatter.step({
         "Can Tho",
         "VN"
       ],
-      "line": 206
+      "line": 213
     },
     {
       "cells": [
@@ -13455,21 +14436,39 @@ formatter.step({
         "Vĩnh Long",
         "VN"
       ],
-      "line": 207
+      "line": 214
     }
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "14",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 98267700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "14",
+      "offset": 91
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 41040800,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 217,
+  "line": 224,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;",
@@ -13478,21 +14477,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 218,
+      "line": 225,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;1"
     },
     {
       "cells": [
         "15"
       ],
-      "line": 219,
+      "line": 226,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 219,
+  "line": 226,
   "name": "Verify Content in Body when Response is 200",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2",
@@ -13500,13 +14499,17 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
+      "line": 183,
+      "name": "@NAB_REQ_2.3"
+    },
+    {
       "line": 1,
       "name": "@searchWeather"
     }
   ]
 });
 formatter.step({
-  "line": 177,
+  "line": 185,
   "name": "user sends API SearchWeather request with information corresponding \"15\"",
   "matchedColumns": [
     0
@@ -13518,7 +14521,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 178
+      "line": 186
     },
     {
       "cells": [
@@ -13526,7 +14529,7 @@ formatter.step({
         "London",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 179
+      "line": 187
     },
     {
       "cells": [
@@ -13534,7 +14537,7 @@ formatter.step({
         "Tokyo",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 180
+      "line": 188
     },
     {
       "cells": [
@@ -13542,7 +14545,7 @@ formatter.step({
         "Thành phố hồ chí minh",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 181
+      "line": 189
     },
     {
       "cells": [
@@ -13550,7 +14553,7 @@ formatter.step({
         "Thai nguyen",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 182
+      "line": 190
     },
     {
       "cells": [
@@ -13558,7 +14561,7 @@ formatter.step({
         "上海",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 183
+      "line": 191
     },
     {
       "cells": [
@@ -13566,7 +14569,7 @@ formatter.step({
         "Chengdu",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 184
+      "line": 192
     },
     {
       "cells": [
@@ -13574,7 +14577,7 @@ formatter.step({
         "東京都",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 185
+      "line": 193
     },
     {
       "cells": [
@@ -13582,7 +14585,7 @@ formatter.step({
         "Nagoya",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 186
+      "line": 194
     },
     {
       "cells": [
@@ -13590,15 +14593,7 @@ formatter.step({
         "Hà Nội, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 187
-    },
-    {
-      "cells": [
-        "21",
-        "Hà Nam,",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 188
+      "line": 195
     },
     {
       "cells": [
@@ -13606,7 +14601,7 @@ formatter.step({
         "Bắc Giang, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 189
+      "line": 196
     },
     {
       "cells": [
@@ -13614,7 +14609,7 @@ formatter.step({
         "Cần     Thơ",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 190
+      "line": 197
     },
     {
       "cells": [
@@ -13622,13 +14617,13 @@ formatter.step({
         "Vĩnh Long, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 191
+      "line": 198
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 193,
+  "line": 200,
   "name": "user check city name and country for response successfully with information corresponding \"15\"",
   "matchedColumns": [
     0
@@ -13643,7 +14638,7 @@ formatter.step({
         "city_name_expected",
         "country_expected"
       ],
-      "line": 194
+      "line": 201
     },
     {
       "cells": [
@@ -13654,7 +14649,7 @@ formatter.step({
         "London",
         "GB"
       ],
-      "line": 195
+      "line": 202
     },
     {
       "cells": [
@@ -13665,7 +14660,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 196
+      "line": 203
     },
     {
       "cells": [
@@ -13676,7 +14671,7 @@ formatter.step({
         "Ho Chi Minh City",
         "VN"
       ],
-      "line": 197
+      "line": 204
     },
     {
       "cells": [
@@ -13687,7 +14682,7 @@ formatter.step({
         "Thai Nguyen",
         "VN"
       ],
-      "line": 198
+      "line": 205
     },
     {
       "cells": [
@@ -13698,7 +14693,7 @@ formatter.step({
         "Shanghai",
         "CN"
       ],
-      "line": 199
+      "line": 206
     },
     {
       "cells": [
@@ -13709,7 +14704,7 @@ formatter.step({
         "Chengdu",
         "CN"
       ],
-      "line": 200
+      "line": 207
     },
     {
       "cells": [
@@ -13720,7 +14715,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 201
+      "line": 208
     },
     {
       "cells": [
@@ -13731,7 +14726,7 @@ formatter.step({
         "Nagoya",
         "JP"
       ],
-      "line": 202
+      "line": 209
     },
     {
       "cells": [
@@ -13742,18 +14737,7 @@ formatter.step({
         "Hanoi",
         "VN"
       ],
-      "line": 203
-    },
-    {
-      "cells": [
-        "21",
-        "200",
-        "200",
-        "",
-        "Hà Nam",
-        "VN"
-      ],
-      "line": 204
+      "line": 210
     },
     {
       "cells": [
@@ -13764,7 +14748,7 @@ formatter.step({
         "Bắc Giang",
         "VN"
       ],
-      "line": 205
+      "line": 212
     },
     {
       "cells": [
@@ -13775,7 +14759,7 @@ formatter.step({
         "Can Tho",
         "VN"
       ],
-      "line": 206
+      "line": 213
     },
     {
       "cells": [
@@ -13786,21 +14770,39 @@ formatter.step({
         "Vĩnh Long",
         "VN"
       ],
-      "line": 207
+      "line": 214
     }
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "15",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 103223800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "15",
+      "offset": 91
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 50959100,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 220,
+  "line": 227,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;",
@@ -13809,21 +14811,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 221,
+      "line": 228,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;1"
     },
     {
       "cells": [
         "16"
       ],
-      "line": 222,
+      "line": 229,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 222,
+  "line": 229,
   "name": "Verify Content in Body when Response is 200",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2",
@@ -13831,13 +14833,17 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
+      "line": 183,
+      "name": "@NAB_REQ_2.3"
+    },
+    {
       "line": 1,
       "name": "@searchWeather"
     }
   ]
 });
 formatter.step({
-  "line": 177,
+  "line": 185,
   "name": "user sends API SearchWeather request with information corresponding \"16\"",
   "matchedColumns": [
     0
@@ -13849,7 +14855,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 178
+      "line": 186
     },
     {
       "cells": [
@@ -13857,7 +14863,7 @@ formatter.step({
         "London",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 179
+      "line": 187
     },
     {
       "cells": [
@@ -13865,7 +14871,7 @@ formatter.step({
         "Tokyo",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 180
+      "line": 188
     },
     {
       "cells": [
@@ -13873,7 +14879,7 @@ formatter.step({
         "Thành phố hồ chí minh",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 181
+      "line": 189
     },
     {
       "cells": [
@@ -13881,7 +14887,7 @@ formatter.step({
         "Thai nguyen",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 182
+      "line": 190
     },
     {
       "cells": [
@@ -13889,7 +14895,7 @@ formatter.step({
         "上海",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 183
+      "line": 191
     },
     {
       "cells": [
@@ -13897,7 +14903,7 @@ formatter.step({
         "Chengdu",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 184
+      "line": 192
     },
     {
       "cells": [
@@ -13905,7 +14911,7 @@ formatter.step({
         "東京都",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 185
+      "line": 193
     },
     {
       "cells": [
@@ -13913,7 +14919,7 @@ formatter.step({
         "Nagoya",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 186
+      "line": 194
     },
     {
       "cells": [
@@ -13921,15 +14927,7 @@ formatter.step({
         "Hà Nội, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 187
-    },
-    {
-      "cells": [
-        "21",
-        "Hà Nam,",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 188
+      "line": 195
     },
     {
       "cells": [
@@ -13937,7 +14935,7 @@ formatter.step({
         "Bắc Giang, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 189
+      "line": 196
     },
     {
       "cells": [
@@ -13945,7 +14943,7 @@ formatter.step({
         "Cần     Thơ",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 190
+      "line": 197
     },
     {
       "cells": [
@@ -13953,13 +14951,13 @@ formatter.step({
         "Vĩnh Long, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 191
+      "line": 198
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 193,
+  "line": 200,
   "name": "user check city name and country for response successfully with information corresponding \"16\"",
   "matchedColumns": [
     0
@@ -13974,7 +14972,7 @@ formatter.step({
         "city_name_expected",
         "country_expected"
       ],
-      "line": 194
+      "line": 201
     },
     {
       "cells": [
@@ -13985,7 +14983,7 @@ formatter.step({
         "London",
         "GB"
       ],
-      "line": 195
+      "line": 202
     },
     {
       "cells": [
@@ -13996,7 +14994,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 196
+      "line": 203
     },
     {
       "cells": [
@@ -14007,7 +15005,7 @@ formatter.step({
         "Ho Chi Minh City",
         "VN"
       ],
-      "line": 197
+      "line": 204
     },
     {
       "cells": [
@@ -14018,7 +15016,7 @@ formatter.step({
         "Thai Nguyen",
         "VN"
       ],
-      "line": 198
+      "line": 205
     },
     {
       "cells": [
@@ -14029,7 +15027,7 @@ formatter.step({
         "Shanghai",
         "CN"
       ],
-      "line": 199
+      "line": 206
     },
     {
       "cells": [
@@ -14040,7 +15038,7 @@ formatter.step({
         "Chengdu",
         "CN"
       ],
-      "line": 200
+      "line": 207
     },
     {
       "cells": [
@@ -14051,7 +15049,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 201
+      "line": 208
     },
     {
       "cells": [
@@ -14062,7 +15060,7 @@ formatter.step({
         "Nagoya",
         "JP"
       ],
-      "line": 202
+      "line": 209
     },
     {
       "cells": [
@@ -14073,18 +15071,7 @@ formatter.step({
         "Hanoi",
         "VN"
       ],
-      "line": 203
-    },
-    {
-      "cells": [
-        "21",
-        "200",
-        "200",
-        "",
-        "Hà Nam",
-        "VN"
-      ],
-      "line": 204
+      "line": 210
     },
     {
       "cells": [
@@ -14095,7 +15082,7 @@ formatter.step({
         "Bắc Giang",
         "VN"
       ],
-      "line": 205
+      "line": 212
     },
     {
       "cells": [
@@ -14106,7 +15093,7 @@ formatter.step({
         "Can Tho",
         "VN"
       ],
-      "line": 206
+      "line": 213
     },
     {
       "cells": [
@@ -14117,21 +15104,39 @@ formatter.step({
         "Vĩnh Long",
         "VN"
       ],
-      "line": 207
+      "line": 214
     }
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "16",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 97682900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "16",
+      "offset": 91
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 42900300,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 223,
+  "line": 230,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;",
@@ -14140,21 +15145,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 224,
+      "line": 231,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;1"
     },
     {
       "cells": [
         "17"
       ],
-      "line": 225,
+      "line": 232,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 225,
+  "line": 232,
   "name": "Verify Content in Body when Response is 200",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2",
@@ -14162,13 +15167,17 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
+      "line": 183,
+      "name": "@NAB_REQ_2.3"
+    },
+    {
       "line": 1,
       "name": "@searchWeather"
     }
   ]
 });
 formatter.step({
-  "line": 177,
+  "line": 185,
   "name": "user sends API SearchWeather request with information corresponding \"17\"",
   "matchedColumns": [
     0
@@ -14180,7 +15189,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 178
+      "line": 186
     },
     {
       "cells": [
@@ -14188,7 +15197,7 @@ formatter.step({
         "London",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 179
+      "line": 187
     },
     {
       "cells": [
@@ -14196,7 +15205,7 @@ formatter.step({
         "Tokyo",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 180
+      "line": 188
     },
     {
       "cells": [
@@ -14204,7 +15213,7 @@ formatter.step({
         "Thành phố hồ chí minh",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 181
+      "line": 189
     },
     {
       "cells": [
@@ -14212,7 +15221,7 @@ formatter.step({
         "Thai nguyen",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 182
+      "line": 190
     },
     {
       "cells": [
@@ -14220,7 +15229,7 @@ formatter.step({
         "上海",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 183
+      "line": 191
     },
     {
       "cells": [
@@ -14228,7 +15237,7 @@ formatter.step({
         "Chengdu",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 184
+      "line": 192
     },
     {
       "cells": [
@@ -14236,7 +15245,7 @@ formatter.step({
         "東京都",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 185
+      "line": 193
     },
     {
       "cells": [
@@ -14244,7 +15253,7 @@ formatter.step({
         "Nagoya",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 186
+      "line": 194
     },
     {
       "cells": [
@@ -14252,15 +15261,7 @@ formatter.step({
         "Hà Nội, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 187
-    },
-    {
-      "cells": [
-        "21",
-        "Hà Nam,",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 188
+      "line": 195
     },
     {
       "cells": [
@@ -14268,7 +15269,7 @@ formatter.step({
         "Bắc Giang, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 189
+      "line": 196
     },
     {
       "cells": [
@@ -14276,7 +15277,7 @@ formatter.step({
         "Cần     Thơ",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 190
+      "line": 197
     },
     {
       "cells": [
@@ -14284,13 +15285,13 @@ formatter.step({
         "Vĩnh Long, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 191
+      "line": 198
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 193,
+  "line": 200,
   "name": "user check city name and country for response successfully with information corresponding \"17\"",
   "matchedColumns": [
     0
@@ -14305,7 +15306,7 @@ formatter.step({
         "city_name_expected",
         "country_expected"
       ],
-      "line": 194
+      "line": 201
     },
     {
       "cells": [
@@ -14316,7 +15317,7 @@ formatter.step({
         "London",
         "GB"
       ],
-      "line": 195
+      "line": 202
     },
     {
       "cells": [
@@ -14327,7 +15328,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 196
+      "line": 203
     },
     {
       "cells": [
@@ -14338,7 +15339,7 @@ formatter.step({
         "Ho Chi Minh City",
         "VN"
       ],
-      "line": 197
+      "line": 204
     },
     {
       "cells": [
@@ -14349,7 +15350,7 @@ formatter.step({
         "Thai Nguyen",
         "VN"
       ],
-      "line": 198
+      "line": 205
     },
     {
       "cells": [
@@ -14360,7 +15361,7 @@ formatter.step({
         "Shanghai",
         "CN"
       ],
-      "line": 199
+      "line": 206
     },
     {
       "cells": [
@@ -14371,7 +15372,7 @@ formatter.step({
         "Chengdu",
         "CN"
       ],
-      "line": 200
+      "line": 207
     },
     {
       "cells": [
@@ -14382,7 +15383,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 201
+      "line": 208
     },
     {
       "cells": [
@@ -14393,7 +15394,7 @@ formatter.step({
         "Nagoya",
         "JP"
       ],
-      "line": 202
+      "line": 209
     },
     {
       "cells": [
@@ -14404,18 +15405,7 @@ formatter.step({
         "Hanoi",
         "VN"
       ],
-      "line": 203
-    },
-    {
-      "cells": [
-        "21",
-        "200",
-        "200",
-        "",
-        "Hà Nam",
-        "VN"
-      ],
-      "line": 204
+      "line": 210
     },
     {
       "cells": [
@@ -14426,7 +15416,7 @@ formatter.step({
         "Bắc Giang",
         "VN"
       ],
-      "line": 205
+      "line": 212
     },
     {
       "cells": [
@@ -14437,7 +15427,7 @@ formatter.step({
         "Can Tho",
         "VN"
       ],
-      "line": 206
+      "line": 213
     },
     {
       "cells": [
@@ -14448,21 +15438,39 @@ formatter.step({
         "Vĩnh Long",
         "VN"
       ],
-      "line": 207
+      "line": 214
     }
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "17",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 91856000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "17",
+      "offset": 91
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 24239900,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 226,
+  "line": 233,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;",
@@ -14471,21 +15479,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 227,
+      "line": 234,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;1"
     },
     {
       "cells": [
         "18"
       ],
-      "line": 228,
+      "line": 235,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 228,
+  "line": 235,
   "name": "Verify Content in Body when Response is 200",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2",
@@ -14493,13 +15501,17 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
+      "line": 183,
+      "name": "@NAB_REQ_2.3"
+    },
+    {
       "line": 1,
       "name": "@searchWeather"
     }
   ]
 });
 formatter.step({
-  "line": 177,
+  "line": 185,
   "name": "user sends API SearchWeather request with information corresponding \"18\"",
   "matchedColumns": [
     0
@@ -14511,7 +15523,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 178
+      "line": 186
     },
     {
       "cells": [
@@ -14519,7 +15531,7 @@ formatter.step({
         "London",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 179
+      "line": 187
     },
     {
       "cells": [
@@ -14527,7 +15539,7 @@ formatter.step({
         "Tokyo",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 180
+      "line": 188
     },
     {
       "cells": [
@@ -14535,7 +15547,7 @@ formatter.step({
         "Thành phố hồ chí minh",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 181
+      "line": 189
     },
     {
       "cells": [
@@ -14543,7 +15555,7 @@ formatter.step({
         "Thai nguyen",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 182
+      "line": 190
     },
     {
       "cells": [
@@ -14551,7 +15563,7 @@ formatter.step({
         "上海",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 183
+      "line": 191
     },
     {
       "cells": [
@@ -14559,7 +15571,7 @@ formatter.step({
         "Chengdu",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 184
+      "line": 192
     },
     {
       "cells": [
@@ -14567,7 +15579,7 @@ formatter.step({
         "東京都",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 185
+      "line": 193
     },
     {
       "cells": [
@@ -14575,7 +15587,7 @@ formatter.step({
         "Nagoya",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 186
+      "line": 194
     },
     {
       "cells": [
@@ -14583,15 +15595,7 @@ formatter.step({
         "Hà Nội, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 187
-    },
-    {
-      "cells": [
-        "21",
-        "Hà Nam,",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 188
+      "line": 195
     },
     {
       "cells": [
@@ -14599,7 +15603,7 @@ formatter.step({
         "Bắc Giang, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 189
+      "line": 196
     },
     {
       "cells": [
@@ -14607,7 +15611,7 @@ formatter.step({
         "Cần     Thơ",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 190
+      "line": 197
     },
     {
       "cells": [
@@ -14615,13 +15619,13 @@ formatter.step({
         "Vĩnh Long, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 191
+      "line": 198
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 193,
+  "line": 200,
   "name": "user check city name and country for response successfully with information corresponding \"18\"",
   "matchedColumns": [
     0
@@ -14636,7 +15640,7 @@ formatter.step({
         "city_name_expected",
         "country_expected"
       ],
-      "line": 194
+      "line": 201
     },
     {
       "cells": [
@@ -14647,7 +15651,7 @@ formatter.step({
         "London",
         "GB"
       ],
-      "line": 195
+      "line": 202
     },
     {
       "cells": [
@@ -14658,7 +15662,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 196
+      "line": 203
     },
     {
       "cells": [
@@ -14669,7 +15673,7 @@ formatter.step({
         "Ho Chi Minh City",
         "VN"
       ],
-      "line": 197
+      "line": 204
     },
     {
       "cells": [
@@ -14680,7 +15684,7 @@ formatter.step({
         "Thai Nguyen",
         "VN"
       ],
-      "line": 198
+      "line": 205
     },
     {
       "cells": [
@@ -14691,7 +15695,7 @@ formatter.step({
         "Shanghai",
         "CN"
       ],
-      "line": 199
+      "line": 206
     },
     {
       "cells": [
@@ -14702,7 +15706,7 @@ formatter.step({
         "Chengdu",
         "CN"
       ],
-      "line": 200
+      "line": 207
     },
     {
       "cells": [
@@ -14713,7 +15717,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 201
+      "line": 208
     },
     {
       "cells": [
@@ -14724,7 +15728,7 @@ formatter.step({
         "Nagoya",
         "JP"
       ],
-      "line": 202
+      "line": 209
     },
     {
       "cells": [
@@ -14735,18 +15739,7 @@ formatter.step({
         "Hanoi",
         "VN"
       ],
-      "line": 203
-    },
-    {
-      "cells": [
-        "21",
-        "200",
-        "200",
-        "",
-        "Hà Nam",
-        "VN"
-      ],
-      "line": 204
+      "line": 210
     },
     {
       "cells": [
@@ -14757,7 +15750,7 @@ formatter.step({
         "Bắc Giang",
         "VN"
       ],
-      "line": 205
+      "line": 212
     },
     {
       "cells": [
@@ -14768,7 +15761,7 @@ formatter.step({
         "Can Tho",
         "VN"
       ],
-      "line": 206
+      "line": 213
     },
     {
       "cells": [
@@ -14779,21 +15772,39 @@ formatter.step({
         "Vĩnh Long",
         "VN"
       ],
-      "line": 207
+      "line": 214
     }
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "18",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 92787400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "18",
+      "offset": 91
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 24745000,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 229,
+  "line": 236,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;",
@@ -14802,21 +15813,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 230,
+      "line": 237,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;1"
     },
     {
       "cells": [
         "19"
       ],
-      "line": 231,
+      "line": 238,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 231,
+  "line": 238,
   "name": "Verify Content in Body when Response is 200",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2",
@@ -14824,13 +15835,17 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
+      "line": 183,
+      "name": "@NAB_REQ_2.3"
+    },
+    {
       "line": 1,
       "name": "@searchWeather"
     }
   ]
 });
 formatter.step({
-  "line": 177,
+  "line": 185,
   "name": "user sends API SearchWeather request with information corresponding \"19\"",
   "matchedColumns": [
     0
@@ -14842,7 +15857,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 178
+      "line": 186
     },
     {
       "cells": [
@@ -14850,7 +15865,7 @@ formatter.step({
         "London",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 179
+      "line": 187
     },
     {
       "cells": [
@@ -14858,7 +15873,7 @@ formatter.step({
         "Tokyo",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 180
+      "line": 188
     },
     {
       "cells": [
@@ -14866,7 +15881,7 @@ formatter.step({
         "Thành phố hồ chí minh",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 181
+      "line": 189
     },
     {
       "cells": [
@@ -14874,7 +15889,7 @@ formatter.step({
         "Thai nguyen",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 182
+      "line": 190
     },
     {
       "cells": [
@@ -14882,7 +15897,7 @@ formatter.step({
         "上海",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 183
+      "line": 191
     },
     {
       "cells": [
@@ -14890,7 +15905,7 @@ formatter.step({
         "Chengdu",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 184
+      "line": 192
     },
     {
       "cells": [
@@ -14898,7 +15913,7 @@ formatter.step({
         "東京都",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 185
+      "line": 193
     },
     {
       "cells": [
@@ -14906,7 +15921,7 @@ formatter.step({
         "Nagoya",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 186
+      "line": 194
     },
     {
       "cells": [
@@ -14914,15 +15929,7 @@ formatter.step({
         "Hà Nội, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 187
-    },
-    {
-      "cells": [
-        "21",
-        "Hà Nam,",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 188
+      "line": 195
     },
     {
       "cells": [
@@ -14930,7 +15937,7 @@ formatter.step({
         "Bắc Giang, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 189
+      "line": 196
     },
     {
       "cells": [
@@ -14938,7 +15945,7 @@ formatter.step({
         "Cần     Thơ",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 190
+      "line": 197
     },
     {
       "cells": [
@@ -14946,13 +15953,13 @@ formatter.step({
         "Vĩnh Long, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 191
+      "line": 198
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 193,
+  "line": 200,
   "name": "user check city name and country for response successfully with information corresponding \"19\"",
   "matchedColumns": [
     0
@@ -14967,7 +15974,7 @@ formatter.step({
         "city_name_expected",
         "country_expected"
       ],
-      "line": 194
+      "line": 201
     },
     {
       "cells": [
@@ -14978,7 +15985,7 @@ formatter.step({
         "London",
         "GB"
       ],
-      "line": 195
+      "line": 202
     },
     {
       "cells": [
@@ -14989,7 +15996,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 196
+      "line": 203
     },
     {
       "cells": [
@@ -15000,7 +16007,7 @@ formatter.step({
         "Ho Chi Minh City",
         "VN"
       ],
-      "line": 197
+      "line": 204
     },
     {
       "cells": [
@@ -15011,7 +16018,7 @@ formatter.step({
         "Thai Nguyen",
         "VN"
       ],
-      "line": 198
+      "line": 205
     },
     {
       "cells": [
@@ -15022,7 +16029,7 @@ formatter.step({
         "Shanghai",
         "CN"
       ],
-      "line": 199
+      "line": 206
     },
     {
       "cells": [
@@ -15033,7 +16040,7 @@ formatter.step({
         "Chengdu",
         "CN"
       ],
-      "line": 200
+      "line": 207
     },
     {
       "cells": [
@@ -15044,7 +16051,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 201
+      "line": 208
     },
     {
       "cells": [
@@ -15055,7 +16062,7 @@ formatter.step({
         "Nagoya",
         "JP"
       ],
-      "line": 202
+      "line": 209
     },
     {
       "cells": [
@@ -15066,18 +16073,7 @@ formatter.step({
         "Hanoi",
         "VN"
       ],
-      "line": 203
-    },
-    {
-      "cells": [
-        "21",
-        "200",
-        "200",
-        "",
-        "Hà Nam",
-        "VN"
-      ],
-      "line": 204
+      "line": 210
     },
     {
       "cells": [
@@ -15088,7 +16084,7 @@ formatter.step({
         "Bắc Giang",
         "VN"
       ],
-      "line": 205
+      "line": 212
     },
     {
       "cells": [
@@ -15099,7 +16095,7 @@ formatter.step({
         "Can Tho",
         "VN"
       ],
-      "line": 206
+      "line": 213
     },
     {
       "cells": [
@@ -15110,21 +16106,39 @@ formatter.step({
         "Vĩnh Long",
         "VN"
       ],
-      "line": 207
+      "line": 214
     }
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "19",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 94941600,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "19",
+      "offset": 91
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 21661100,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 232,
+  "line": 239,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;",
@@ -15133,21 +16147,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 233,
+      "line": 240,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;1"
     },
     {
       "cells": [
         "20"
       ],
-      "line": 234,
+      "line": 241,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 234,
+  "line": 241,
   "name": "Verify Content in Body when Response is 200",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2",
@@ -15155,13 +16169,17 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
+      "line": 183,
+      "name": "@NAB_REQ_2.3"
+    },
+    {
       "line": 1,
       "name": "@searchWeather"
     }
   ]
 });
 formatter.step({
-  "line": 177,
+  "line": 185,
   "name": "user sends API SearchWeather request with information corresponding \"20\"",
   "matchedColumns": [
     0
@@ -15173,7 +16191,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 178
+      "line": 186
     },
     {
       "cells": [
@@ -15181,7 +16199,7 @@ formatter.step({
         "London",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 179
+      "line": 187
     },
     {
       "cells": [
@@ -15189,7 +16207,7 @@ formatter.step({
         "Tokyo",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 180
+      "line": 188
     },
     {
       "cells": [
@@ -15197,7 +16215,7 @@ formatter.step({
         "Thành phố hồ chí minh",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 181
+      "line": 189
     },
     {
       "cells": [
@@ -15205,7 +16223,7 @@ formatter.step({
         "Thai nguyen",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 182
+      "line": 190
     },
     {
       "cells": [
@@ -15213,7 +16231,7 @@ formatter.step({
         "上海",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 183
+      "line": 191
     },
     {
       "cells": [
@@ -15221,7 +16239,7 @@ formatter.step({
         "Chengdu",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 184
+      "line": 192
     },
     {
       "cells": [
@@ -15229,7 +16247,7 @@ formatter.step({
         "東京都",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 185
+      "line": 193
     },
     {
       "cells": [
@@ -15237,7 +16255,7 @@ formatter.step({
         "Nagoya",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 186
+      "line": 194
     },
     {
       "cells": [
@@ -15245,15 +16263,7 @@ formatter.step({
         "Hà Nội, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 187
-    },
-    {
-      "cells": [
-        "21",
-        "Hà Nam,",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 188
+      "line": 195
     },
     {
       "cells": [
@@ -15261,7 +16271,7 @@ formatter.step({
         "Bắc Giang, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 189
+      "line": 196
     },
     {
       "cells": [
@@ -15269,7 +16279,7 @@ formatter.step({
         "Cần     Thơ",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 190
+      "line": 197
     },
     {
       "cells": [
@@ -15277,13 +16287,13 @@ formatter.step({
         "Vĩnh Long, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 191
+      "line": 198
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 193,
+  "line": 200,
   "name": "user check city name and country for response successfully with information corresponding \"20\"",
   "matchedColumns": [
     0
@@ -15298,7 +16308,7 @@ formatter.step({
         "city_name_expected",
         "country_expected"
       ],
-      "line": 194
+      "line": 201
     },
     {
       "cells": [
@@ -15309,7 +16319,7 @@ formatter.step({
         "London",
         "GB"
       ],
-      "line": 195
+      "line": 202
     },
     {
       "cells": [
@@ -15320,7 +16330,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 196
+      "line": 203
     },
     {
       "cells": [
@@ -15331,7 +16341,7 @@ formatter.step({
         "Ho Chi Minh City",
         "VN"
       ],
-      "line": 197
+      "line": 204
     },
     {
       "cells": [
@@ -15342,7 +16352,7 @@ formatter.step({
         "Thai Nguyen",
         "VN"
       ],
-      "line": 198
+      "line": 205
     },
     {
       "cells": [
@@ -15353,7 +16363,7 @@ formatter.step({
         "Shanghai",
         "CN"
       ],
-      "line": 199
+      "line": 206
     },
     {
       "cells": [
@@ -15364,7 +16374,7 @@ formatter.step({
         "Chengdu",
         "CN"
       ],
-      "line": 200
+      "line": 207
     },
     {
       "cells": [
@@ -15375,7 +16385,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 201
+      "line": 208
     },
     {
       "cells": [
@@ -15386,7 +16396,7 @@ formatter.step({
         "Nagoya",
         "JP"
       ],
-      "line": 202
+      "line": 209
     },
     {
       "cells": [
@@ -15397,18 +16407,7 @@ formatter.step({
         "Hanoi",
         "VN"
       ],
-      "line": 203
-    },
-    {
-      "cells": [
-        "21",
-        "200",
-        "200",
-        "",
-        "Hà Nam",
-        "VN"
-      ],
-      "line": 204
+      "line": 210
     },
     {
       "cells": [
@@ -15419,7 +16418,7 @@ formatter.step({
         "Bắc Giang",
         "VN"
       ],
-      "line": 205
+      "line": 212
     },
     {
       "cells": [
@@ -15430,7 +16429,7 @@ formatter.step({
         "Can Tho",
         "VN"
       ],
-      "line": 206
+      "line": 213
     },
     {
       "cells": [
@@ -15441,21 +16440,39 @@ formatter.step({
         "Vĩnh Long",
         "VN"
       ],
-      "line": 207
+      "line": 214
     }
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "20",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 96767800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "20",
+      "offset": 91
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 21057600,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 235,
+  "line": 242,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;",
@@ -15464,352 +16481,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 236,
-      "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;1"
-    },
-    {
-      "cells": [
-        "21"
-      ],
-      "line": 237,
-      "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2"
-    }
-  ],
-  "keyword": "Examples"
-});
-formatter.scenario({
-  "line": 237,
-  "name": "Verify Content in Body when Response is 200",
-  "description": "",
-  "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2",
-  "type": "scenario",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "line": 1,
-      "name": "@searchWeather"
-    }
-  ]
-});
-formatter.step({
-  "line": 177,
-  "name": "user sends API SearchWeather request with information corresponding \"21\"",
-  "matchedColumns": [
-    0
-  ],
-  "rows": [
-    {
-      "cells": [
-        "KEY",
-        "city_name",
-        "api_key"
-      ],
-      "line": 178
-    },
-    {
-      "cells": [
-        "12",
-        "London",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 179
-    },
-    {
-      "cells": [
-        "13",
-        "Tokyo",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 180
-    },
-    {
-      "cells": [
-        "14",
-        "Thành phố hồ chí minh",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 181
-    },
-    {
-      "cells": [
-        "15",
-        "Thai nguyen",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 182
-    },
-    {
-      "cells": [
-        "16",
-        "上海",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 183
-    },
-    {
-      "cells": [
-        "17",
-        "Chengdu",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 184
-    },
-    {
-      "cells": [
-        "18",
-        "東京都",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 185
-    },
-    {
-      "cells": [
-        "19",
-        "Nagoya",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 186
-    },
-    {
-      "cells": [
-        "20",
-        "Hà Nội, VN",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 187
-    },
-    {
-      "cells": [
-        "21",
-        "Hà Nam,",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 188
-    },
-    {
-      "cells": [
-        "22",
-        "Bắc Giang, VN",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 189
-    },
-    {
-      "cells": [
-        "23",
-        "Cần     Thơ",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 190
-    },
-    {
-      "cells": [
-        "24",
-        "Vĩnh Long, VN",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 191
-    }
-  ],
-  "keyword": "When "
-});
-formatter.step({
-  "line": 193,
-  "name": "user check city name and country for response successfully with information corresponding \"21\"",
-  "matchedColumns": [
-    0
-  ],
-  "rows": [
-    {
-      "cells": [
-        "KEY",
-        "response_code",
-        "cod",
-        "message",
-        "city_name_expected",
-        "country_expected"
-      ],
-      "line": 194
-    },
-    {
-      "cells": [
-        "12",
-        "200",
-        "200",
-        "",
-        "London",
-        "GB"
-      ],
-      "line": 195
-    },
-    {
-      "cells": [
-        "13",
-        "200",
-        "200",
-        "",
-        "Tokyo",
-        "JP"
-      ],
-      "line": 196
-    },
-    {
-      "cells": [
-        "14",
-        "200",
-        "200",
-        "",
-        "Ho Chi Minh City",
-        "VN"
-      ],
-      "line": 197
-    },
-    {
-      "cells": [
-        "15",
-        "200",
-        "200",
-        "",
-        "Thai Nguyen",
-        "VN"
-      ],
-      "line": 198
-    },
-    {
-      "cells": [
-        "16",
-        "200",
-        "200",
-        "",
-        "Shanghai",
-        "CN"
-      ],
-      "line": 199
-    },
-    {
-      "cells": [
-        "17",
-        "200",
-        "200",
-        "",
-        "Chengdu",
-        "CN"
-      ],
-      "line": 200
-    },
-    {
-      "cells": [
-        "18",
-        "200",
-        "200",
-        "",
-        "Tokyo",
-        "JP"
-      ],
-      "line": 201
-    },
-    {
-      "cells": [
-        "19",
-        "200",
-        "200",
-        "",
-        "Nagoya",
-        "JP"
-      ],
-      "line": 202
-    },
-    {
-      "cells": [
-        "20",
-        "200",
-        "200",
-        "",
-        "Hanoi",
-        "VN"
-      ],
-      "line": 203
-    },
-    {
-      "cells": [
-        "21",
-        "200",
-        "200",
-        "",
-        "Hà Nam",
-        "VN"
-      ],
-      "line": 204
-    },
-    {
-      "cells": [
-        "22",
-        "200",
-        "200",
-        "",
-        "Bắc Giang",
-        "VN"
-      ],
-      "line": 205
-    },
-    {
-      "cells": [
-        "23",
-        "200",
-        "200",
-        "",
-        "Can Tho",
-        "VN"
-      ],
-      "line": 206
-    },
-    {
-      "cells": [
-        "24",
-        "200",
-        "200",
-        "",
-        "Vĩnh Long",
-        "VN"
-      ],
-      "line": 207
-    }
-  ],
-  "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.examples({
-  "line": 238,
-  "name": "",
-  "description": "",
-  "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;",
-  "rows": [
-    {
-      "cells": [
-        "KEY"
-      ],
-      "line": 239,
+      "line": 243,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;1"
     },
     {
       "cells": [
         "22"
       ],
-      "line": 240,
+      "line": 244,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 240,
+  "line": 244,
   "name": "Verify Content in Body when Response is 200",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2",
@@ -15817,13 +16503,17 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
+      "line": 183,
+      "name": "@NAB_REQ_2.3"
+    },
+    {
       "line": 1,
       "name": "@searchWeather"
     }
   ]
 });
 formatter.step({
-  "line": 177,
+  "line": 185,
   "name": "user sends API SearchWeather request with information corresponding \"22\"",
   "matchedColumns": [
     0
@@ -15835,7 +16525,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 178
+      "line": 186
     },
     {
       "cells": [
@@ -15843,7 +16533,7 @@ formatter.step({
         "London",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 179
+      "line": 187
     },
     {
       "cells": [
@@ -15851,7 +16541,7 @@ formatter.step({
         "Tokyo",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 180
+      "line": 188
     },
     {
       "cells": [
@@ -15859,7 +16549,7 @@ formatter.step({
         "Thành phố hồ chí minh",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 181
+      "line": 189
     },
     {
       "cells": [
@@ -15867,7 +16557,7 @@ formatter.step({
         "Thai nguyen",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 182
+      "line": 190
     },
     {
       "cells": [
@@ -15875,7 +16565,7 @@ formatter.step({
         "上海",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 183
+      "line": 191
     },
     {
       "cells": [
@@ -15883,7 +16573,7 @@ formatter.step({
         "Chengdu",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 184
+      "line": 192
     },
     {
       "cells": [
@@ -15891,7 +16581,7 @@ formatter.step({
         "東京都",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 185
+      "line": 193
     },
     {
       "cells": [
@@ -15899,7 +16589,7 @@ formatter.step({
         "Nagoya",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 186
+      "line": 194
     },
     {
       "cells": [
@@ -15907,15 +16597,7 @@ formatter.step({
         "Hà Nội, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 187
-    },
-    {
-      "cells": [
-        "21",
-        "Hà Nam,",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 188
+      "line": 195
     },
     {
       "cells": [
@@ -15923,7 +16605,7 @@ formatter.step({
         "Bắc Giang, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 189
+      "line": 196
     },
     {
       "cells": [
@@ -15931,7 +16613,7 @@ formatter.step({
         "Cần     Thơ",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 190
+      "line": 197
     },
     {
       "cells": [
@@ -15939,13 +16621,13 @@ formatter.step({
         "Vĩnh Long, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 191
+      "line": 198
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 193,
+  "line": 200,
   "name": "user check city name and country for response successfully with information corresponding \"22\"",
   "matchedColumns": [
     0
@@ -15960,7 +16642,7 @@ formatter.step({
         "city_name_expected",
         "country_expected"
       ],
-      "line": 194
+      "line": 201
     },
     {
       "cells": [
@@ -15971,7 +16653,7 @@ formatter.step({
         "London",
         "GB"
       ],
-      "line": 195
+      "line": 202
     },
     {
       "cells": [
@@ -15982,7 +16664,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 196
+      "line": 203
     },
     {
       "cells": [
@@ -15993,7 +16675,7 @@ formatter.step({
         "Ho Chi Minh City",
         "VN"
       ],
-      "line": 197
+      "line": 204
     },
     {
       "cells": [
@@ -16004,7 +16686,7 @@ formatter.step({
         "Thai Nguyen",
         "VN"
       ],
-      "line": 198
+      "line": 205
     },
     {
       "cells": [
@@ -16015,7 +16697,7 @@ formatter.step({
         "Shanghai",
         "CN"
       ],
-      "line": 199
+      "line": 206
     },
     {
       "cells": [
@@ -16026,7 +16708,7 @@ formatter.step({
         "Chengdu",
         "CN"
       ],
-      "line": 200
+      "line": 207
     },
     {
       "cells": [
@@ -16037,7 +16719,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 201
+      "line": 208
     },
     {
       "cells": [
@@ -16048,7 +16730,7 @@ formatter.step({
         "Nagoya",
         "JP"
       ],
-      "line": 202
+      "line": 209
     },
     {
       "cells": [
@@ -16059,18 +16741,7 @@ formatter.step({
         "Hanoi",
         "VN"
       ],
-      "line": 203
-    },
-    {
-      "cells": [
-        "21",
-        "200",
-        "200",
-        "",
-        "Hà Nam",
-        "VN"
-      ],
-      "line": 204
+      "line": 210
     },
     {
       "cells": [
@@ -16081,7 +16752,7 @@ formatter.step({
         "Bắc Giang",
         "VN"
       ],
-      "line": 205
+      "line": 212
     },
     {
       "cells": [
@@ -16092,7 +16763,7 @@ formatter.step({
         "Can Tho",
         "VN"
       ],
-      "line": 206
+      "line": 213
     },
     {
       "cells": [
@@ -16103,21 +16774,39 @@ formatter.step({
         "Vĩnh Long",
         "VN"
       ],
-      "line": 207
+      "line": 214
     }
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "22",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 90475500,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "22",
+      "offset": 91
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 23029500,
+  "status": "passed"
 });
 formatter.examples({
-  "line": 241,
+  "line": 245,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;",
@@ -16126,21 +16815,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 242,
+      "line": 246,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;1"
     },
     {
       "cells": [
         "23"
       ],
-      "line": 243,
+      "line": 247,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 243,
+  "line": 247,
   "name": "Verify Content in Body when Response is 200",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2",
@@ -16148,13 +16837,17 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
+      "line": 183,
+      "name": "@NAB_REQ_2.3"
+    },
+    {
       "line": 1,
       "name": "@searchWeather"
     }
   ]
 });
 formatter.step({
-  "line": 177,
+  "line": 185,
   "name": "user sends API SearchWeather request with information corresponding \"23\"",
   "matchedColumns": [
     0
@@ -16166,7 +16859,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 178
+      "line": 186
     },
     {
       "cells": [
@@ -16174,7 +16867,7 @@ formatter.step({
         "London",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 179
+      "line": 187
     },
     {
       "cells": [
@@ -16182,7 +16875,7 @@ formatter.step({
         "Tokyo",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 180
+      "line": 188
     },
     {
       "cells": [
@@ -16190,7 +16883,7 @@ formatter.step({
         "Thành phố hồ chí minh",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 181
+      "line": 189
     },
     {
       "cells": [
@@ -16198,7 +16891,7 @@ formatter.step({
         "Thai nguyen",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 182
+      "line": 190
     },
     {
       "cells": [
@@ -16206,7 +16899,7 @@ formatter.step({
         "上海",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 183
+      "line": 191
     },
     {
       "cells": [
@@ -16214,7 +16907,7 @@ formatter.step({
         "Chengdu",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 184
+      "line": 192
     },
     {
       "cells": [
@@ -16222,7 +16915,7 @@ formatter.step({
         "東京都",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 185
+      "line": 193
     },
     {
       "cells": [
@@ -16230,7 +16923,7 @@ formatter.step({
         "Nagoya",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 186
+      "line": 194
     },
     {
       "cells": [
@@ -16238,15 +16931,7 @@ formatter.step({
         "Hà Nội, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 187
-    },
-    {
-      "cells": [
-        "21",
-        "Hà Nam,",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 188
+      "line": 195
     },
     {
       "cells": [
@@ -16254,7 +16939,7 @@ formatter.step({
         "Bắc Giang, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 189
+      "line": 196
     },
     {
       "cells": [
@@ -16262,7 +16947,7 @@ formatter.step({
         "Cần     Thơ",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 190
+      "line": 197
     },
     {
       "cells": [
@@ -16270,13 +16955,13 @@ formatter.step({
         "Vĩnh Long, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 191
+      "line": 198
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 193,
+  "line": 200,
   "name": "user check city name and country for response successfully with information corresponding \"23\"",
   "matchedColumns": [
     0
@@ -16291,7 +16976,7 @@ formatter.step({
         "city_name_expected",
         "country_expected"
       ],
-      "line": 194
+      "line": 201
     },
     {
       "cells": [
@@ -16302,7 +16987,7 @@ formatter.step({
         "London",
         "GB"
       ],
-      "line": 195
+      "line": 202
     },
     {
       "cells": [
@@ -16313,7 +16998,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 196
+      "line": 203
     },
     {
       "cells": [
@@ -16324,7 +17009,7 @@ formatter.step({
         "Ho Chi Minh City",
         "VN"
       ],
-      "line": 197
+      "line": 204
     },
     {
       "cells": [
@@ -16335,7 +17020,7 @@ formatter.step({
         "Thai Nguyen",
         "VN"
       ],
-      "line": 198
+      "line": 205
     },
     {
       "cells": [
@@ -16346,7 +17031,7 @@ formatter.step({
         "Shanghai",
         "CN"
       ],
-      "line": 199
+      "line": 206
     },
     {
       "cells": [
@@ -16357,7 +17042,7 @@ formatter.step({
         "Chengdu",
         "CN"
       ],
-      "line": 200
+      "line": 207
     },
     {
       "cells": [
@@ -16368,7 +17053,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 201
+      "line": 208
     },
     {
       "cells": [
@@ -16379,7 +17064,7 @@ formatter.step({
         "Nagoya",
         "JP"
       ],
-      "line": 202
+      "line": 209
     },
     {
       "cells": [
@@ -16390,18 +17075,7 @@ formatter.step({
         "Hanoi",
         "VN"
       ],
-      "line": 203
-    },
-    {
-      "cells": [
-        "21",
-        "200",
-        "200",
-        "",
-        "Hà Nam",
-        "VN"
-      ],
-      "line": 204
+      "line": 210
     },
     {
       "cells": [
@@ -16412,7 +17086,7 @@ formatter.step({
         "Bắc Giang",
         "VN"
       ],
-      "line": 205
+      "line": 212
     },
     {
       "cells": [
@@ -16423,7 +17097,7 @@ formatter.step({
         "Can Tho",
         "VN"
       ],
-      "line": 206
+      "line": 213
     },
     {
       "cells": [
@@ -16434,21 +17108,40 @@ formatter.step({
         "Vĩnh Long",
         "VN"
       ],
-      "line": 207
+      "line": 214
     }
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "23",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 103217000,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "23",
+      "offset": 91
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 25547900,
+  "error_message": "java.lang.NullPointerException\r\n\tat com.nab.defs.SearchWeatherDefs.validateCityNameAndCountry(SearchWeatherDefs.java:78)\r\n\tat steps.SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(SearchWeatherSteps.java:43)\r\n\tat ✽.Then user check city name and country for response successfully with information corresponding \"23\"(SearchWeather.feature:200)\r\n",
+  "status": "failed"
 });
 formatter.examples({
-  "line": 244,
+  "line": 248,
   "name": "",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;",
@@ -16457,21 +17150,21 @@ formatter.examples({
       "cells": [
         "KEY"
       ],
-      "line": 245,
+      "line": 249,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;1"
     },
     {
       "cells": [
         "24"
       ],
-      "line": 246,
+      "line": 250,
       "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 246,
+  "line": 250,
   "name": "Verify Content in Body when Response is 200",
   "description": "",
   "id": "test-api-search-weather-in-your-city;verify-content-in-body-when-response-is-200;;2",
@@ -16479,13 +17172,17 @@ formatter.scenario({
   "keyword": "Scenario Outline",
   "tags": [
     {
+      "line": 183,
+      "name": "@NAB_REQ_2.3"
+    },
+    {
       "line": 1,
       "name": "@searchWeather"
     }
   ]
 });
 formatter.step({
-  "line": 177,
+  "line": 185,
   "name": "user sends API SearchWeather request with information corresponding \"24\"",
   "matchedColumns": [
     0
@@ -16497,7 +17194,7 @@ formatter.step({
         "city_name",
         "api_key"
       ],
-      "line": 178
+      "line": 186
     },
     {
       "cells": [
@@ -16505,7 +17202,7 @@ formatter.step({
         "London",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 179
+      "line": 187
     },
     {
       "cells": [
@@ -16513,7 +17210,7 @@ formatter.step({
         "Tokyo",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 180
+      "line": 188
     },
     {
       "cells": [
@@ -16521,7 +17218,7 @@ formatter.step({
         "Thành phố hồ chí minh",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 181
+      "line": 189
     },
     {
       "cells": [
@@ -16529,7 +17226,7 @@ formatter.step({
         "Thai nguyen",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 182
+      "line": 190
     },
     {
       "cells": [
@@ -16537,7 +17234,7 @@ formatter.step({
         "上海",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 183
+      "line": 191
     },
     {
       "cells": [
@@ -16545,7 +17242,7 @@ formatter.step({
         "Chengdu",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 184
+      "line": 192
     },
     {
       "cells": [
@@ -16553,7 +17250,7 @@ formatter.step({
         "東京都",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 185
+      "line": 193
     },
     {
       "cells": [
@@ -16561,7 +17258,7 @@ formatter.step({
         "Nagoya",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 186
+      "line": 194
     },
     {
       "cells": [
@@ -16569,15 +17266,7 @@ formatter.step({
         "Hà Nội, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 187
-    },
-    {
-      "cells": [
-        "21",
-        "Hà Nam,",
-        "cc0fffc8405efdadca37749bbc586e41"
-      ],
-      "line": 188
+      "line": 195
     },
     {
       "cells": [
@@ -16585,7 +17274,7 @@ formatter.step({
         "Bắc Giang, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 189
+      "line": 196
     },
     {
       "cells": [
@@ -16593,7 +17282,7 @@ formatter.step({
         "Cần     Thơ",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 190
+      "line": 197
     },
     {
       "cells": [
@@ -16601,13 +17290,13 @@ formatter.step({
         "Vĩnh Long, VN",
         "cc0fffc8405efdadca37749bbc586e41"
       ],
-      "line": 191
+      "line": 198
     }
   ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 193,
+  "line": 200,
   "name": "user check city name and country for response successfully with information corresponding \"24\"",
   "matchedColumns": [
     0
@@ -16622,7 +17311,7 @@ formatter.step({
         "city_name_expected",
         "country_expected"
       ],
-      "line": 194
+      "line": 201
     },
     {
       "cells": [
@@ -16633,7 +17322,7 @@ formatter.step({
         "London",
         "GB"
       ],
-      "line": 195
+      "line": 202
     },
     {
       "cells": [
@@ -16644,7 +17333,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 196
+      "line": 203
     },
     {
       "cells": [
@@ -16655,7 +17344,7 @@ formatter.step({
         "Ho Chi Minh City",
         "VN"
       ],
-      "line": 197
+      "line": 204
     },
     {
       "cells": [
@@ -16666,7 +17355,7 @@ formatter.step({
         "Thai Nguyen",
         "VN"
       ],
-      "line": 198
+      "line": 205
     },
     {
       "cells": [
@@ -16677,7 +17366,7 @@ formatter.step({
         "Shanghai",
         "CN"
       ],
-      "line": 199
+      "line": 206
     },
     {
       "cells": [
@@ -16688,7 +17377,7 @@ formatter.step({
         "Chengdu",
         "CN"
       ],
-      "line": 200
+      "line": 207
     },
     {
       "cells": [
@@ -16699,7 +17388,7 @@ formatter.step({
         "Tokyo",
         "JP"
       ],
-      "line": 201
+      "line": 208
     },
     {
       "cells": [
@@ -16710,7 +17399,7 @@ formatter.step({
         "Nagoya",
         "JP"
       ],
-      "line": 202
+      "line": 209
     },
     {
       "cells": [
@@ -16721,18 +17410,7 @@ formatter.step({
         "Hanoi",
         "VN"
       ],
-      "line": 203
-    },
-    {
-      "cells": [
-        "21",
-        "200",
-        "200",
-        "",
-        "Hà Nam",
-        "VN"
-      ],
-      "line": 204
+      "line": 210
     },
     {
       "cells": [
@@ -16743,7 +17421,7 @@ formatter.step({
         "Bắc Giang",
         "VN"
       ],
-      "line": 205
+      "line": 212
     },
     {
       "cells": [
@@ -16754,7 +17432,7 @@ formatter.step({
         "Can Tho",
         "VN"
       ],
-      "line": 206
+      "line": 213
     },
     {
       "cells": [
@@ -16765,17 +17443,35 @@ formatter.step({
         "Vĩnh Long",
         "VN"
       ],
-      "line": 207
+      "line": 214
     }
   ],
   "keyword": "Then "
 });
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+formatter.match({
+  "arguments": [
+    {
+      "val": "24",
+      "offset": 69
+    }
+  ],
+  "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
-formatter.match({});
 formatter.result({
-  "status": "undefined"
+  "duration": 120996200,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "24",
+      "offset": 91
+    }
+  ],
+  "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
+});
+formatter.result({
+  "duration": 40008100,
+  "status": "passed"
 });
 });
