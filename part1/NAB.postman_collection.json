@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "6600efe6-29db-48a1-b0d2-c7898f3767db",
+		"name": "NAB",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Search weather your city_{{name_testcase}}",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Verify Response Code Pass\", function () {\r",
+							"    console.log(pm.variables.get(\"response_code\"));\r",
+							"    pm.expect(pm.response.code).to.eql(parseInt(pm.variables.get(\"response_code\")));\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Verify cod in Response Body Pass\", function () {\r",
+							"    let responseData = pm.response.json();\r",
+							"    pm.variables.set(\"cod_actual\", parseInt(responseData.cod));\r",
+							"    console.log(pm.variables.get(\"cod_actual\"));\r",
+							"    pm.expect(pm.variables.get(\"cod_actual\")).to.eql(pm.variables.get(\"cod\"))\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Verify message error in Response Body when response code # 200\", function () {\r",
+							"    if (pm.response.code != 200) {\r",
+							"        let responseData = pm.response.json();\r",
+							"        pm.variables.set(\"message_actual\", responseData.message);\r",
+							"        console.log(pm.variables.get(\"message_actual\"));\r",
+							"        pm.expect(pm.variables.get(\"message_actual\")).to.eql(pm.variables.get(\"message\"));\r",
+							"    }else{}\r",
+							"});\r",
+							"pm.test(\"Verify city name in Response Body when response code = 200\", function () {\r",
+							"    if (pm.response.code === 200) {\r",
+							"        let responseData = pm.response.json();\r",
+							"        pm.variables.set(\"name_actual\", responseData.name);\r",
+							"        console.log(pm.variables.get(\"name_actual\"));\r",
+							"        pm.expect(pm.variables.get(\"name_actual\")).to.eql(pm.variables.get(\"city_name_expected\"));\r",
+							"    } else{ }\r",
+							"});\r",
+							"\r",
+							"pm.test(\"Verify country code in Response Body when response code = 200\", function () {\r",
+							"    if (pm.response.code === 200) {\r",
+							"        let responseData = pm.response.json();\r",
+							"        console.log(responseData);\r",
+							"        pm.variables.set(\"country_actual\", responseData.sys.country);\r",
+							"        console.log(pm.variables.get(\"country_actual\"));\r",
+							"        pm.expect(pm.variables.get(\"country_actual\")).to.eql(pm.variables.get(\"country_expected\"));\r",
+							"    } else {\r",
+							"\r",
+							"    }\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.openweathermap.org/data/2.5/weather?q={{city_name}}&appid={{api_key}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "{{city_name}}"
+						},
+						{
+							"key": "appid",
+							"value": "{{api_key}}"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

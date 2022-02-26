@@ -1,0 +1,23 @@
+ID Testcase,city_name,api_key,response_code,cod,message,city_name_expected,country_expected
+TC_ID_2,city name not exists,cc0fffc8405efdadca37749bbc586e41,404,404,city not found,,
+TC_ID_3,,cc0fffc8405efdadca37749bbc586e41,400,400,Nothing to geocode,,
+TC_ID_4,                  ,cc0fffc8405efdadca37749bbc586e41,400,400,Nothing to geocode,,
+TC_ID_5,BG,cc0fffc8405efdadca37749bbc586e41,404,404,city not found,,
+TC_ID_6,ha noi vn,cc0fffc8405efdadca37749bbc586e41,404,404,city not found,,
+TC_ID_7,"ha noi, cn",cc0fffc8405efdadca37749bbc586e41,404,404,city not found,,
+TC_ID_8,Krungthepmahanakhon Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit,cc0fffc8405efdadca37749bbc586e41,404,404,city not found,,
+TC_ID_10,hanoi,appid not exists,401,401,Invalid API key. Please see http://openweathermap.org/faq#error401 for more info.,,
+TC_ID_11,hanoi,57c1c22050f92b6d7a0a4c5716912bbe,401,401,Invalid API key. Please see http://openweathermap.org/faq#error401 for more info.,,
+TC_ID_12,London,cc0fffc8405efdadca37749bbc586e41,200,200,,London,GB
+TC_ID_13,Tokyo,cc0fffc8405efdadca37749bbc586e41,200,200,,Tokyo,JP
+TC_ID_14,Thành ph? h? chí minh,cc0fffc8405efdadca37749bbc586e41,200,200,,Ho Chi Minh City,VN
+TC_ID_15,Thai nguyen,cc0fffc8405efdadca37749bbc586e41,200,200,,Thai Nguyen,VN
+TC_ID_16,??,cc0fffc8405efdadca37749bbc586e41,200,200,,Shanghai,CN
+TC_ID_17,Chengdu,cc0fffc8405efdadca37749bbc586e41,200,200,,Chengdu,CN
+TC_ID_18,???,cc0fffc8405efdadca37749bbc586e41,200,200,,Tokyo,JP
+TC_ID_19,Nagoya,cc0fffc8405efdadca37749bbc586e41,200,200,,Nagoya,JP
+TC_ID_20,"Hà N?i, VN",cc0fffc8405efdadca37749bbc586e41,200,200,,Hanoi,VN
+TC_ID_21,"Hà Nam,",cc0fffc8405efdadca37749bbc586e41,200,200,,Hà Nam,VN
+TC_ID_22,"    B?c Giang, VN",cc0fffc8405efdadca37749bbc586e41,200,200,,B?c Giang,VN
+TC_ID_23,C?n     Th?,cc0fffc8405efdadca37749bbc586e41,200,200,,Can Tho,VN
+TC_ID_24,"V?nh Long, VN   ",cc0fffc8405efdadca37749bbc586e41,200,200,,V?nh Long,VN
