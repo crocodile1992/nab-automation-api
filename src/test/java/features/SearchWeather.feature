@@ -49,7 +49,7 @@ Feature: Test API search weather in your city
       | 20  | 200           | 200 |
       | 21  | 404           | 404 |
       | 22  | 200           | 200 |
-      | 23  | 200           | 200 |
+      | 23  | 404           | 404 |
       | 24  | 200           | 200 |
     @NAB_REQ_2.1
     Examples:

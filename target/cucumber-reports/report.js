@@ -831,7 +831,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 2820455200,
+  "duration": 2535452100,
   "status": "passed"
 });
 formatter.match({
@@ -844,7 +844,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 524018100,
+  "duration": 539348800,
   "status": "passed"
 });
 formatter.examples({
@@ -1278,7 +1278,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 122344400,
+  "duration": 105041700,
   "status": "passed"
 });
 formatter.match({
@@ -1291,7 +1291,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 13589300,
+  "duration": 15448200,
   "status": "passed"
 });
 formatter.examples({
@@ -1725,7 +1725,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 107518700,
+  "duration": 117291200,
   "status": "passed"
 });
 formatter.match({
@@ -1738,7 +1738,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 13576400,
+  "duration": 19384700,
   "status": "passed"
 });
 formatter.examples({
@@ -2172,7 +2172,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 128503500,
+  "duration": 115710400,
   "status": "passed"
 });
 formatter.match({
@@ -2185,7 +2185,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 17071200,
+  "duration": 14751300,
   "status": "passed"
 });
 formatter.examples({
@@ -2619,7 +2619,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 111457100,
+  "duration": 101210400,
   "status": "passed"
 });
 formatter.match({
@@ -2632,7 +2632,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 12074000,
+  "duration": 11101600,
   "status": "passed"
 });
 formatter.examples({
@@ -3066,7 +3066,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 102446100,
+  "duration": 118720200,
   "status": "passed"
 });
 formatter.match({
@@ -3079,7 +3079,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 10669200,
+  "duration": 18545400,
   "status": "passed"
 });
 formatter.examples({
@@ -3513,7 +3513,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 108692700,
+  "duration": 107061700,
   "status": "passed"
 });
 formatter.match({
@@ -3526,7 +3526,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 114700,
+  "duration": 296000,
   "status": "passed"
 });
 formatter.examples({
@@ -3960,7 +3960,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 119052800,
+  "duration": 111624600,
   "status": "passed"
 });
 formatter.match({
@@ -3973,7 +3973,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 13843400,
+  "duration": 11250500,
   "status": "passed"
 });
 formatter.examples({
@@ -4407,7 +4407,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 109171600,
+  "duration": 109735000,
   "status": "passed"
 });
 formatter.match({
@@ -4420,7 +4420,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 13100600,
+  "duration": 36609500,
   "status": "passed"
 });
 formatter.examples({
@@ -4854,7 +4854,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 103388700,
+  "duration": 109230700,
   "status": "passed"
 });
 formatter.match({
@@ -4867,7 +4867,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 24484300,
+  "duration": 28204700,
   "status": "passed"
 });
 formatter.examples({
@@ -5301,7 +5301,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 92772600,
+  "duration": 95478300,
   "status": "passed"
 });
 formatter.match({
@@ -5314,7 +5314,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 15478400,
+  "duration": 15231300,
   "status": "passed"
 });
 formatter.examples({
@@ -5748,7 +5748,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 108137900,
+  "duration": 101934700,
   "status": "passed"
 });
 formatter.match({
@@ -5761,7 +5761,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 17923000,
+  "duration": 13353200,
   "status": "passed"
 });
 formatter.examples({
@@ -6195,7 +6195,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 112497200,
+  "duration": 101783700,
   "status": "passed"
 });
 formatter.match({
@@ -6208,7 +6208,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 23959400,
+  "duration": 18314900,
   "status": "passed"
 });
 formatter.examples({
@@ -6642,7 +6642,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 96801500,
+  "duration": 96994200,
   "status": "passed"
 });
 formatter.match({
@@ -6655,7 +6655,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 15150200,
+  "duration": 14638800,
   "status": "passed"
 });
 formatter.examples({
@@ -7089,7 +7089,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 90525700,
+  "duration": 103719400,
   "status": "passed"
 });
 formatter.match({
@@ -7102,7 +7102,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 17131300,
+  "duration": 13468700,
   "status": "passed"
 });
 formatter.examples({
@@ -7536,7 +7536,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 134960200,
+  "duration": 126610700,
   "status": "passed"
 });
 formatter.match({
@@ -7549,7 +7549,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 14584800,
+  "duration": 25527500,
   "status": "passed"
 });
 formatter.examples({
@@ -7983,7 +7983,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 93222600,
+  "duration": 92739100,
   "status": "passed"
 });
 formatter.match({
@@ -7996,7 +7996,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 15473500,
+  "duration": 15152000,
   "status": "passed"
 });
 formatter.examples({
@@ -8430,7 +8430,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 99675900,
+  "duration": 96084200,
   "status": "passed"
 });
 formatter.match({
@@ -8443,7 +8443,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 13262200,
+  "duration": 26385600,
   "status": "passed"
 });
 formatter.examples({
@@ -8877,7 +8877,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 140932000,
+  "duration": 98492700,
   "status": "passed"
 });
 formatter.match({
@@ -8890,7 +8890,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 10036400,
+  "duration": 9079200,
   "status": "passed"
 });
 formatter.examples({
@@ -9324,7 +9324,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 100135000,
+  "duration": 104753100,
   "status": "passed"
 });
 formatter.match({
@@ -9337,7 +9337,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 18259800,
+  "duration": 29027200,
   "status": "passed"
 });
 formatter.examples({
@@ -9771,7 +9771,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 99830700,
+  "duration": 93866200,
   "status": "passed"
 });
 formatter.match({
@@ -9784,7 +9784,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 783000,
+  "duration": 2095300,
   "error_message": "java.lang.AssertionError: Status Code is Valid\r\n\tat org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:26)\r\n\tat com.nab.defs.SearchWeatherDefs.validateResponseCodeAndResponseBody(SearchWeatherDefs.java:44)\r\n\tat steps.SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(SearchWeatherSteps.java:27)\r\n\tat ✽.Then user check response code, response body with information corresponding \"23\"(SearchWeather.feature:31)\r\n",
   "status": "failed"
 });
@@ -10219,7 +10219,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 112356500,
+  "duration": 98362200,
   "status": "passed"
 });
 formatter.match({
@@ -10232,7 +10232,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckResponseCodeResponseBodyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 13978200,
+  "duration": 12286700,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -10708,7 +10708,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 96973800,
+  "duration": 94760900,
   "status": "passed"
 });
 formatter.match({
@@ -10721,7 +10721,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckMessageInResponseBodyWhenResponseFailWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 13682600,
+  "duration": 9091300,
   "status": "passed"
 });
 formatter.examples({
@@ -10982,7 +10982,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 96013400,
+  "duration": 94185000,
   "status": "passed"
 });
 formatter.match({
@@ -10995,7 +10995,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckMessageInResponseBodyWhenResponseFailWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 11637800,
+  "duration": 19303800,
   "status": "passed"
 });
 formatter.examples({
@@ -11256,7 +11256,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 99976900,
+  "duration": 92683200,
   "status": "passed"
 });
 formatter.match({
@@ -11269,7 +11269,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckMessageInResponseBodyWhenResponseFailWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 10244400,
+  "duration": 23761100,
   "status": "passed"
 });
 formatter.examples({
@@ -11530,7 +11530,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 84883900,
+  "duration": 106932700,
   "status": "passed"
 });
 formatter.match({
@@ -11543,7 +11543,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckMessageInResponseBodyWhenResponseFailWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 10033000,
+  "duration": 28055500,
   "status": "passed"
 });
 formatter.examples({
@@ -11804,7 +11804,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 102463400,
+  "duration": 97978400,
   "status": "passed"
 });
 formatter.match({
@@ -11817,7 +11817,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckMessageInResponseBodyWhenResponseFailWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 8226200,
+  "duration": 25094700,
   "status": "passed"
 });
 formatter.examples({
@@ -12078,7 +12078,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 115436000,
+  "duration": 97404800,
   "status": "passed"
 });
 formatter.match({
@@ -12091,7 +12091,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckMessageInResponseBodyWhenResponseFailWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 9711600,
+  "duration": 28306500,
   "status": "passed"
 });
 formatter.examples({
@@ -12352,7 +12352,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 103782600,
+  "duration": 90005900,
   "status": "passed"
 });
 formatter.match({
@@ -12365,7 +12365,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckMessageInResponseBodyWhenResponseFailWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 11117300,
+  "duration": 26255300,
   "status": "passed"
 });
 formatter.examples({
@@ -12626,7 +12626,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 90103400,
+  "duration": 86997000,
   "status": "passed"
 });
 formatter.match({
@@ -12639,7 +12639,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckMessageInResponseBodyWhenResponseFailWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 13682700,
+  "duration": 23684700,
   "status": "passed"
 });
 formatter.examples({
@@ -12900,7 +12900,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 94184600,
+  "duration": 91955100,
   "status": "passed"
 });
 formatter.match({
@@ -12913,7 +12913,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckMessageInResponseBodyWhenResponseFailWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 22672100,
+  "duration": 24566200,
   "status": "passed"
 });
 formatter.examples({
@@ -13174,7 +13174,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 91271300,
+  "duration": 101731300,
   "status": "passed"
 });
 formatter.match({
@@ -13187,7 +13187,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckMessageInResponseBodyWhenResponseFailWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 11745100,
+  "duration": 19060700,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -13783,7 +13783,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 86421900,
+  "duration": 105416000,
   "status": "passed"
 });
 formatter.match({
@@ -13796,7 +13796,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 25674800,
+  "duration": 29018500,
   "status": "passed"
 });
 formatter.examples({
@@ -14117,7 +14117,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 98694500,
+  "duration": 91473500,
   "status": "passed"
 });
 formatter.match({
@@ -14130,7 +14130,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 37214400,
+  "duration": 30833000,
   "status": "passed"
 });
 formatter.examples({
@@ -14451,7 +14451,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 109918700,
+  "duration": 98782100,
   "status": "passed"
 });
 formatter.match({
@@ -14464,7 +14464,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 29268600,
+  "duration": 22965100,
   "status": "passed"
 });
 formatter.examples({
@@ -14785,7 +14785,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 117374700,
+  "duration": 84950900,
   "status": "passed"
 });
 formatter.match({
@@ -14798,7 +14798,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 50336300,
+  "duration": 21881300,
   "status": "passed"
 });
 formatter.examples({
@@ -15119,7 +15119,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 130204300,
+  "duration": 106553900,
   "status": "passed"
 });
 formatter.match({
@@ -15132,7 +15132,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 40706900,
+  "duration": 19421300,
   "status": "passed"
 });
 formatter.examples({
@@ -15453,7 +15453,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 156573400,
+  "duration": 98229600,
   "status": "passed"
 });
 formatter.match({
@@ -15466,7 +15466,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 28866900,
+  "duration": 49462400,
   "status": "passed"
 });
 formatter.examples({
@@ -15787,7 +15787,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 144236900,
+  "duration": 95275500,
   "status": "passed"
 });
 formatter.match({
@@ -15800,7 +15800,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 33567100,
+  "duration": 22133400,
   "status": "passed"
 });
 formatter.examples({
@@ -16121,7 +16121,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 141842600,
+  "duration": 93514700,
   "status": "passed"
 });
 formatter.match({
@@ -16134,7 +16134,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 43561400,
+  "duration": 24413200,
   "status": "passed"
 });
 formatter.examples({
@@ -16455,7 +16455,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 102532300,
+  "duration": 95061200,
   "status": "passed"
 });
 formatter.match({
@@ -16468,7 +16468,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 24686100,
+  "duration": 23161500,
   "status": "passed"
 });
 formatter.examples({
@@ -16789,7 +16789,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 105811100,
+  "duration": 92463500,
   "status": "passed"
 });
 formatter.match({
@@ -16802,7 +16802,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 28737400,
+  "duration": 38321700,
   "status": "passed"
 });
 formatter.examples({
@@ -17123,7 +17123,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 114301700,
+  "duration": 108152700,
   "status": "passed"
 });
 formatter.match({
@@ -17136,7 +17136,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 12243600,
+  "duration": 9928500,
   "error_message": "java.lang.NullPointerException\r\n\tat com.nab.defs.SearchWeatherDefs.validateCityNameAndCountry(SearchWeatherDefs.java:78)\r\n\tat steps.SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(SearchWeatherSteps.java:43)\r\n\tat ✽.Then user check city name and country for response successfully with information corresponding \"23\"(SearchWeather.feature:200)\r\n",
   "status": "failed"
 });
@@ -17458,7 +17458,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userSendsAPISearchWeatherRequestWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 103076200,
+  "duration": 104875100,
   "status": "passed"
 });
 formatter.match({
@@ -17471,7 +17471,7 @@ formatter.match({
   "location": "SearchWeatherSteps.userCheckCityNameAndCountryForResponseSuccessfullyWithInformationCorresponding(String,DataTable)"
 });
 formatter.result({
-  "duration": 32823300,
+  "duration": 41714200,
   "status": "passed"
 });
 });

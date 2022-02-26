@@ -8,6 +8,8 @@
     <artifactId>demoautotest</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
+        <serenity.version>3.2.0</serenity.version>
+        <tags></tags>
         <cucumber.version>4.8.1</cucumber.version>
         <restassured.version>4.1.2</restassured.version>
         <dp-thread-count>2</dp-thread-count>
@@ -153,9 +155,35 @@
                         <goals>
                             <goal>integration-test</goal>
                             <goal>verify</goal>
+
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>net.serenity-bdd.maven.plugins</groupId>
+                <artifactId>serenity-maven-plugin</artifactId>
+                <version>${serenity.version}</version>
+                <configuration>
+                    <tags>${tags}</tags>
+                    <reports>single-page-html</reports>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>serenity-reports</id>
+                        <phase>post-integration-test</phase>
+                        <goals>
+                            <goal>aggregate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>net.serenity-bdd</groupId>
+                        <artifactId>serenity-single-page-report</artifactId>
+                        <version>${serenity.version}</version>
+                    </dependency>
+                </dependencies>
             </plugin>
         </plugins>
     </build>
