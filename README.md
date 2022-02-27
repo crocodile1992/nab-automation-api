@@ -26,7 +26,8 @@ For target short term, I created tests in POSTMAN to save time, effor,t and meet
  ![Create data test for](https://user-images.githubusercontent.com/4914242/155867721-4505e3b0-4a97-4b8c-95c8-df0b0eb90348.png)
 
  3. Create Request in POSTMAN and write script test verify response
-  ![Create request for api](https://user-images.githubusercontent.com/4914242/155867735-e5af71d4-a4c6-43e4-93b6-bd491f36475f.png)
+  ![Create request for api](https://user-images.githubusercontent.com/4914242/155868854-42f86869-1a37-4249-b785-b43cb1fa3c6f.png)
+
   ![Write test scripts for api testcases](https://user-images.githubusercontent.com/4914242/155867751-1e00cedb-11c8-4737-a564-fb9f57748c6d.png)
 
  4.Create Runner, Import file data test, Run test
@@ -37,13 +38,29 @@ For target short term, I created tests in POSTMAN to save time, effor,t and meet
  ![Summary Report](https://user-images.githubusercontent.com/4914242/155867849-c97ce754-2227-4a6c-b2b6-aad2345dfef7.png)
 
 ### 1.2. Solution long term
-For target long term, I build framework automation using:
-- language java,
--  cucumber, library restassured
+For target long term
+- Easy and cost-effective maintenance.
+- Develop on multi platform
 
-Build framework automation test for API Search Weather you city
-Depend into deadline, lifecycle, resource... of project to we choose technique, framework automation test for project.
-With project less reuse, comp short lifecycle. We can using Postman, SOAPUI to write script check fastest.
-With project large, maintain. long lifecycle. We can build frameworks as: serenity, selenium, robot framework.
-With project I prepared 2 example to demo.
-Write script test in Postman. And create 
+I build framework automation using:
+- Language programming: java
+- Framework test cucumber
+- Library REST Assured
+- Git hub: repository
+- Maven: 
+- Jenkins: 
+
+Script feature, detail: https://github.com/crocodile1992/nab-automation-api/blob/main/src/test/java/features/SearchWeather.feature 
+![image](https://user-images.githubusercontent.com/4914242/155869807-05245b05-359b-4433-9abf-08d60284f0a0.png)
+Create job in Jenkin, config responsitory: read from github
+![image](https://user-images.githubusercontent.com/4914242/155870078-d5967f52-8862-4a8f-812c-17cc6146f150.png)
+Check result after job run
+![image](https://user-images.githubusercontent.com/4914242/155869930-ba3ec03b-b4e2-4bd9-b6dc-747a91d1b36c.png)
+Report test after job run successful
+![image](https://user-images.githubusercontent.com/4914242/155869853-33b7540b-2a5a-4ecd-b3a3-2bd16c9c1548.png)
+![image](https://user-images.githubusercontent.com/4914242/155869900-76e3d747-4cd6-49a9-8d9d-e7972f77fe5c.png)
+
+Report Test have 2 testcases fail for when between city_name include space free, and expected system auto trim space free. This issue to business clean requirement.
+
+We can set up schedule run job periodically or Build after other projects are built...
+
